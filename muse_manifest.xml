@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1505766860168">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1505770427823">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="245340162" ref="index"/>
-    <file name="nomq_index.css" crc="516409659" ref="index"/>
+    <file name="index.css" crc="4265447189" ref="index"/>
+    <file name="nomq_index.css" crc="240708066" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -25,10 +25,16 @@
     <file name="логотип калькулятор.png" crc="219678707" seo="true" ref="index"/>
     <file name="right-arrow-circular-button-u1049.png" crc="290191748" ref="index"/>
     <file name="u207-7.png" crc="93836012" ref="index"/>
-    <file name="plans.png" crc="355647686" seo="true" ref="index"/>
-    <file name="house-plan-scale.png" crc="4163854489" seo="true" ref="index"/>
-    <file name="field-and-windmill.png" crc="238656323" seo="true" ref="index"/>
-    <file name="house.png" crc="4150623009" seo="true" ref="index"/>
+    <file name="plans.png" crc="430493654" seo="true" ref="index"/>
+    <file name="house-plan-scale.png" crc="177473539" seo="true" ref="index"/>
+    <file name="field-and-windmill.png" crc="3901869078" seo="true" ref="index"/>
+    <file name="house.png" crc="4231340117" seo="true" ref="index"/>
+    <file name="file.png" crc="295683243" seo="true" ref="index"/>
+    <file name="calendar.png" crc="510613482" seo="true" ref="index"/>
+    <file name="camera.png" crc="3842235678" seo="true" ref="index"/>
+    <file name="file1.png" crc="4233802785" seo="true" ref="index"/>
+    <file name="report.png" crc="4161598450" seo="true" ref="index"/>
+    <file name="thumb-up.png" crc="181997736" seo="true" ref="index"/>
     <file name="беспланый выезд.jpg" crc="4132869211" ref="index"/>
     <file name="оперативность.jpg" crc="4008597824" ref="index"/>
     <file name="низкие цены.jpg" crc="4014461492" ref="index"/>
@@ -37,11 +43,6 @@
     <file name="стаж.jpg" crc="491449068" ref="index"/>
     <file name="качество.jpg" crc="3898092522" ref="index"/>
     <file name="доставка.jpg" crc="3840534160" ref="index"/>
-    <file name="u410-9.png" crc="4174790632" ref="index"/>
-    <file name="u413-7.png" crc="118082618" ref="index"/>
-    <file name="u419-13.png" crc="220125900" ref="index"/>
-    <file name="u434-4.png" crc="3888788977" ref="index"/>
-    <file name="u437-9.png" crc="3795275671" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="u730.png" crc="486167448" ref="index"/>
     <file name="u730-ferr.png" crc="222059802" ref="index"/>
@@ -57,12 +58,6 @@
     <file name="1482342714_prodazha-nedvizhimosti-u190-fr.jpg" crc="3918929915" ref="index"/>
     <file name="u207-72.png" crc="4055413881" ref="index"/>
     <file name="right-arrow-circular-button-u10492.png" crc="3795198018" ref="index"/>
-    <file name="u410-92.png" crc="125258176" ref="index"/>
-    <file name="u413-72.png" crc="3826667788" ref="index"/>
-    <file name="u419-132.png" crc="9501593" ref="index"/>
-    <file name="u434-42.png" crc="173224128" ref="index"/>
-    <file name="u437-92.png" crc="320069671" ref="index"/>
-    <file name="u1020-82.png" crc="272573079" ref="index"/>
     <file name="u7302.png" crc="486167448" ref="index"/>
     <file name="u730-ferr2.png" crc="222059802" ref="index"/>
     <file name="u7222.png" crc="520789986" ref="index"/>
@@ -73,15 +68,16 @@
     <file name="u734-fs2.png" crc="335642971" ref="index"/>
     <file name="u7272.png" crc="107503555" ref="index"/>
     <file name="u727-ferr2.png" crc="189128107" ref="index"/>
+    <file name="u1020-82.png" crc="272573079" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
       <file name="index.css" crc="4021538510" ref="tablet>index"/>
-      <file name="______-_______.css" crc="4021538510" ref="tablet>оценка-комнаты"/>
+      <file name="______-__________-_______.css" crc="4021538510" ref="tablet>оценка-земельного-участка"/>
+      <file name="______-________.css" crc="4021538510" ref="tablet>оценка-квартиры"/>
       <file name="______-____.css" crc="4021538510" ref="tablet>оценка-дома"/>
       <file name="nomq_______-____.css" crc="3824530138" ref="tablet>оценка-дома"/>
-      <file name="______-________.css" crc="4021538510" ref="tablet>оценка-квартиры"/>
-      <file name="______-__________-_______.css" crc="4021538510" ref="tablet>оценка-земельного-участка"/>
+      <file name="______-_______.css" crc="4021538510" ref="tablet>оценка-комнаты"/>
     </folder>
     <file name="index.html" crc="3984986521" seo="true" mt="1505656248965" redirect="false"/>
     <file name="оценка-комнаты.html" crc="3993804864" seo="true" mt="1505664200997" redirect="false"/>
@@ -89,5 +85,5 @@
     <file name="оценка-земельного-участка.html" crc="524793350" seo="true" mt="1505664230706" redirect="false"/>
     <file name="оценка-дома.html" crc="149483101" seo="true" mt="1505664243612" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4290196606" seo="true" mt="1505766857900" redirect="true"/>
+  <file name="index.html" crc="324804316" seo="true" mt="1505770425985" redirect="true"/>
 </manifest>
