@@ -1,89 +1,143 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1505770427823">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1506002027455">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4265447189" ref="index"/>
-    <file name="nomq_index.css" crc="240708066" ref="index"/>
+    <file name="index.css" crc="105857730" ref="index"/>
+    <file name="nomq_index.css" crc="18821680" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="tablet>index:tablet>оценка-комнаты:tablet>оценка-квартиры:tablet>оценка-земельного-участка:tablet>оценка-дома:index"/>
-    <file name="museutils.js" crc="4148063285" ref="tablet>index:tablet>оценка-комнаты:tablet>оценка-квартиры:tablet>оценка-земельного-участка:tablet>оценка-дома:index"/>
-    <file name="whatinput.js" crc="86476730" ref="tablet>index:tablet>оценка-комнаты:tablet>оценка-квартиры:tablet>оценка-земельного-участка:tablet>оценка-дома:index"/>
-    <file name="museconfig.js" crc="172512987" ref="tablet>index:tablet>оценка-комнаты:tablet>оценка-квартиры:tablet>оценка-земельного-участка:tablet>оценка-дома:index"/>
-    <file name="jquery.watch.js" crc="437028206" ref="tablet>index:tablet>оценка-комнаты:tablet>оценка-квартиры:tablet>оценка-земельного-участка:tablet>оценка-дома:index"/>
-    <file name="require.js" crc="4159430777" ref="tablet>index:tablet>оценка-комнаты:tablet>оценка-квартиры:tablet>оценка-земельного-участка:tablet>оценка-дома:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="172512987" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
     <file name="webpro.js" crc="3986320349" ref="index"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="index"/>
+    <file name="touchswipe.js" crc="221459597" ref="index"/>
     <file name="form_check.php" crc="303648844" ref="index"/>
     <file name="form_throttle.php" crc="236764551" ref="index"/>
     <file name="form_process.php" crc="4272079531" ref="index"/>
-    <file name="form-u719.php" crc="3813299725" ref="index"/>
+    <file name="form-u4953.php" crc="458387031" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3801019579" ref="index"/>
     <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="1482342714_prodazha-nedvizhimosti.jpg" crc="4101870999" ref="index"/>
-    <file name="логотип калькулятор.png" crc="219678707" seo="true" ref="index"/>
-    <file name="right-arrow-circular-button-u1049.png" crc="290191748" ref="index"/>
-    <file name="u207-7.png" crc="93836012" ref="index"/>
-    <file name="plans.png" crc="430493654" seo="true" ref="index"/>
-    <file name="house-plan-scale.png" crc="177473539" seo="true" ref="index"/>
-    <file name="field-and-windmill.png" crc="3901869078" seo="true" ref="index"/>
-    <file name="house.png" crc="4231340117" seo="true" ref="index"/>
-    <file name="file.png" crc="295683243" seo="true" ref="index"/>
-    <file name="calendar.png" crc="510613482" seo="true" ref="index"/>
-    <file name="camera.png" crc="3842235678" seo="true" ref="index"/>
-    <file name="file1.png" crc="4233802785" seo="true" ref="index"/>
-    <file name="report.png" crc="4161598450" seo="true" ref="index"/>
-    <file name="thumb-up.png" crc="181997736" seo="true" ref="index"/>
-    <file name="беспланый выезд.jpg" crc="4132869211" ref="index"/>
-    <file name="оперативность.jpg" crc="4008597824" ref="index"/>
-    <file name="низкие цены.jpg" crc="4014461492" ref="index"/>
-    <file name="мобильность в работе.jpg" crc="147554825" ref="index"/>
-    <file name="гибкая ценовая политика.jpg" crc="4294635386" ref="index"/>
-    <file name="стаж.jpg" crc="491449068" ref="index"/>
-    <file name="качество.jpg" crc="3898092522" ref="index"/>
-    <file name="доставка.jpg" crc="3840534160" ref="index"/>
+    <file name="1482342714_prodazha-nedvizhimosti.jpg" crc="123100260" ref="index"/>
+    <file name="right-arrow-circular-button-u501.png" crc="494161940" ref="index"/>
+    <file name="right-arrow-circular-button-u501-r.png" crc="3850102578" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u730.png" crc="486167448" ref="index"/>
-    <file name="u730-ferr.png" crc="222059802" ref="index"/>
-    <file name="u722.png" crc="520789986" ref="index"/>
-    <file name="u722-ferr.png" crc="355399383" ref="index"/>
-    <file name="u734.png" crc="4053954744" ref="index"/>
-    <file name="u734-r.png" crc="4213725022" ref="index"/>
-    <file name="u734-m.png" crc="4287200210" ref="index"/>
-    <file name="u734-fs.png" crc="335642971" ref="index"/>
-    <file name="u727.png" crc="107503555" ref="index"/>
-    <file name="u727-ferr.png" crc="189128107" ref="index"/>
-    <file name="u1020-8.png" crc="269014399" ref="index"/>
-    <file name="1482342714_prodazha-nedvizhimosti-u190-fr.jpg" crc="3918929915" ref="index"/>
-    <file name="u207-72.png" crc="4055413881" ref="index"/>
-    <file name="right-arrow-circular-button-u10492.png" crc="3795198018" ref="index"/>
-    <file name="u7302.png" crc="486167448" ref="index"/>
-    <file name="u730-ferr2.png" crc="222059802" ref="index"/>
-    <file name="u7222.png" crc="520789986" ref="index"/>
-    <file name="u722-ferr2.png" crc="355399383" ref="index"/>
-    <file name="u7342.png" crc="4053954744" ref="index"/>
-    <file name="u734-r2.png" crc="4213725022" ref="index"/>
-    <file name="u734-m2.png" crc="4287200210" ref="index"/>
-    <file name="u734-fs2.png" crc="335642971" ref="index"/>
-    <file name="u7272.png" crc="107503555" ref="index"/>
-    <file name="u727-ferr2.png" crc="189128107" ref="index"/>
-    <file name="u1020-82.png" crc="272573079" ref="index"/>
+    <file name="plans.png" crc="483655217" ref="index"/>
+    <file name="house-plan-scale-u1246-fr.png" crc="3982365369" ref="index"/>
+    <file name="field-and-windmill.png" crc="452072950" ref="index"/>
+    <file name="house-u1282-fr.png" crc="26393828" ref="index"/>
+    <file name="file.png" crc="3910754424" ref="index"/>
+    <file name="calendar.png" crc="10775329" ref="index"/>
+    <file name="camera.png" crc="4178449318" ref="index"/>
+    <file name="report.png" crc="3846547672" ref="index"/>
+    <file name="thumb-up.png" crc="99322035" ref="index"/>
+    <file name="выписка из реестра 2016.jpg" crc="530322316" seo="true" ref="index"/>
+    <file name="диплом оценщика.jpg" crc="370746811" seo="true" ref="index"/>
+    <file name="свидетельство 2016.jpg" crc="4064185916" seo="true" ref="index"/>
+    <file name="страховка 2017.jpg" crc="386693679" seo="true" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u3258.jpg" crc="3973556491" ref="index"/>
+    <file name="диплом оценщика63x45.jpg" crc="311858608" seo="true" ref="index"/>
+    <file name="свидетельство 2016-crop-u3629.jpg" crc="4167577999" ref="index"/>
+    <file name="страховка 2017-crop-u3710.jpg" crc="4120220640" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="u4967.png" crc="30966060" ref="index"/>
+    <file name="u4967-ferr.png" crc="490225854" ref="index"/>
+    <file name="u4969.png" crc="4053954744" ref="index"/>
+    <file name="u4969-r.png" crc="4213725022" ref="index"/>
+    <file name="u4969-m.png" crc="4287200210" ref="index"/>
+    <file name="u4969-fs.png" crc="335642971" ref="index"/>
+    <file name="u4956.png" crc="454470776" ref="index"/>
+    <file name="u4956-ferr.png" crc="504254424" ref="index"/>
+    <file name="u4972.png" crc="4212930132" ref="index"/>
+    <file name="u4972-ferr.png" crc="58656904" ref="index"/>
+    <file name="u5262-6.png" crc="457361588" ref="index"/>
+    <file name="u5286-4.png" crc="4018541324" ref="index"/>
+    <file name="выписка из реестра 2016260x360.jpg" crc="4049373171" seo="true" ref="index"/>
+    <file name="диплом оценщика480x346.jpg" crc="381954157" seo="true" ref="index"/>
+    <file name="свидетельство 2016260x360.jpg" crc="3915137027" seo="true" ref="index"/>
+    <file name="страховка 2017262x360.jpg" crc="3865750007" seo="true" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u32582.jpg" crc="3973556491" ref="index"/>
+    <file name="свидетельство 2016-crop-u36292.jpg" crc="4167577999" ref="index"/>
+    <file name="страховка 2017-crop-u37102.jpg" crc="4120220640" ref="index"/>
+    <file name="u5286-42.png" crc="4018541324" ref="index"/>
+    <file name="u5262-62.png" crc="3787167932" ref="index"/>
+    <file name="u49672.png" crc="486167448" ref="index"/>
+    <file name="u4967-ferr2.png" crc="222059802" ref="index"/>
+    <file name="u49692.png" crc="4053954744" ref="index"/>
+    <file name="u4969-r2.png" crc="4213725022" ref="index"/>
+    <file name="u4969-m2.png" crc="4287200210" ref="index"/>
+    <file name="u4969-fs2.png" crc="335642971" ref="index"/>
+    <file name="u49562.png" crc="107503555" ref="index"/>
+    <file name="u4956-ferr2.png" crc="189128107" ref="index"/>
+    <file name="u49722.png" crc="3904446115" ref="index"/>
+    <file name="u4972-ferr2.png" crc="4205347757" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u32583.jpg" crc="3973556491" ref="index"/>
+    <file name="свидетельство 2016-crop-u36293.jpg" crc="4167577999" ref="index"/>
+    <file name="страховка 2017-crop-u37103.jpg" crc="4120220640" ref="index"/>
+    <file name="u49673.png" crc="30966060" ref="index"/>
+    <file name="u4967-ferr3.png" crc="490225854" ref="index"/>
+    <file name="u49693.png" crc="4053954744" ref="index"/>
+    <file name="u4969-r3.png" crc="4213725022" ref="index"/>
+    <file name="u4969-m3.png" crc="4287200210" ref="index"/>
+    <file name="u4969-fs3.png" crc="335642971" ref="index"/>
+    <file name="u49563.png" crc="454470776" ref="index"/>
+    <file name="u4956-ferr3.png" crc="504254424" ref="index"/>
+    <file name="u49723.png" crc="4212930132" ref="index"/>
+    <file name="u4972-ferr3.png" crc="58656904" ref="index"/>
+    <file name="u5262-63.png" crc="373800439" ref="index"/>
+    <file name="u5286-43.png" crc="4018541324" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u32584.jpg" crc="3973556491" ref="index"/>
+    <file name="свидетельство 2016-crop-u36294.jpg" crc="4167577999" ref="index"/>
+    <file name="страховка 2017-crop-u37104.jpg" crc="4120220640" ref="index"/>
+    <file name="u5286-44.png" crc="4018541324" ref="index"/>
+    <file name="u5262-64.png" crc="3763639133" ref="index"/>
+    <file name="u49674.png" crc="486167448" ref="index"/>
+    <file name="u4967-ferr4.png" crc="222059802" ref="index"/>
+    <file name="u49694.png" crc="4053954744" ref="index"/>
+    <file name="u4969-r4.png" crc="4213725022" ref="index"/>
+    <file name="u4969-m4.png" crc="4287200210" ref="index"/>
+    <file name="u4969-fs4.png" crc="335642971" ref="index"/>
+    <file name="u49564.png" crc="107503555" ref="index"/>
+    <file name="u4956-ferr4.png" crc="189128107" ref="index"/>
+    <file name="u49724.png" crc="3904446115" ref="index"/>
+    <file name="u4972-ferr4.png" crc="4205347757" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u32585.jpg" crc="3973556491" ref="index"/>
+    <file name="свидетельство 2016-crop-u36295.jpg" crc="4167577999" ref="index"/>
+    <file name="страховка 2017-crop-u37105.jpg" crc="4120220640" ref="index"/>
+    <file name="u49675.png" crc="30966060" ref="index"/>
+    <file name="u4967-ferr5.png" crc="490225854" ref="index"/>
+    <file name="u49695.png" crc="4053954744" ref="index"/>
+    <file name="u4969-r5.png" crc="4213725022" ref="index"/>
+    <file name="u4969-m5.png" crc="4287200210" ref="index"/>
+    <file name="u4969-fs5.png" crc="335642971" ref="index"/>
+    <file name="u49565.png" crc="454470776" ref="index"/>
+    <file name="u4956-ferr5.png" crc="504254424" ref="index"/>
+    <file name="u49725.png" crc="4212930132" ref="index"/>
+    <file name="u4972-ferr5.png" crc="58656904" ref="index"/>
+    <file name="u5262-65.png" crc="3776947175" ref="index"/>
+    <file name="u5286-45.png" crc="4018541324" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u32586.jpg" crc="3973556491" ref="index"/>
+    <file name="свидетельство 2016-crop-u36296.jpg" crc="4167577999" ref="index"/>
+    <file name="страховка 2017-crop-u37106.jpg" crc="4120220640" ref="index"/>
+    <file name="u49676.png" crc="30966060" ref="index"/>
+    <file name="u4967-ferr6.png" crc="490225854" ref="index"/>
+    <file name="u49696.png" crc="4053954744" ref="index"/>
+    <file name="u4969-r6.png" crc="4213725022" ref="index"/>
+    <file name="u4969-m6.png" crc="4287200210" ref="index"/>
+    <file name="u4969-fs6.png" crc="335642971" ref="index"/>
+    <file name="u49566.png" crc="454470776" ref="index"/>
+    <file name="u4956-ferr6.png" crc="504254424" ref="index"/>
+    <file name="u49726.png" crc="4212930132" ref="index"/>
+    <file name="u4972-ferr6.png" crc="58656904" ref="index"/>
+    <file name="u5262-66.png" crc="3776947175" ref="index"/>
+    <file name="u5286-46.png" crc="4018541324" ref="index"/>
   </folder>
-  <folder name="tablet">
-    <folder name="css">
-      <file name="index.css" crc="4021538510" ref="tablet>index"/>
-      <file name="______-__________-_______.css" crc="4021538510" ref="tablet>оценка-земельного-участка"/>
-      <file name="______-________.css" crc="4021538510" ref="tablet>оценка-квартиры"/>
-      <file name="______-____.css" crc="4021538510" ref="tablet>оценка-дома"/>
-      <file name="nomq_______-____.css" crc="3824530138" ref="tablet>оценка-дома"/>
-      <file name="______-_______.css" crc="4021538510" ref="tablet>оценка-комнаты"/>
-    </folder>
-    <file name="index.html" crc="3984986521" seo="true" mt="1505656248965" redirect="false"/>
-    <file name="оценка-комнаты.html" crc="3993804864" seo="true" mt="1505664200997" redirect="false"/>
-    <file name="оценка-квартиры.html" crc="4195691065" seo="true" mt="1505664213408" redirect="false"/>
-    <file name="оценка-земельного-участка.html" crc="524793350" seo="true" mt="1505664230706" redirect="false"/>
-    <file name="оценка-дома.html" crc="149483101" seo="true" mt="1505664243612" redirect="false"/>
-  </folder>
-  <file name="index.html" crc="324804316" seo="true" mt="1505770425985" redirect="true"/>
+  <file name="index.html" crc="374548397" seo="true" mt="1506002027083" redirect="true"/>
 </manifest>

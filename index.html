@@ -11,17 +11,17 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "jquery.museresponsive.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Домашняя</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4265447189" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=105857730" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=240708066" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=18821680" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -29,394 +29,1108 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </script>
   <!-- JS includes -->
   <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n3,n4:all.js" type="text/javascript">\x3C/script>');
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n7,n3,n4,n6:all;ubuntu:n7:all.js" type="text/javascript">\x3C/script>');
 </script>
-   </head>
+    <!--HTML Widget code-->
+  <style>body,html{overflow-x:hidden;position:relative}.d1{-webkit-animation-delay:.2s!important;animation-delay:.2s!important;-webkit-transition-delay:.2s!important;transition-delay:.2s!important}.d2{-webkit-animation-delay:.3s!important;animation-delay:.3s!important;-webkit-transition-delay:.3s!important;transition-delay:.3s!important}.d3{-webkit-animation-delay:.4s!important;animation-delay:.4s!important;-webkit-transition-delay:.4s!important;transition-delay:.4s!important}.d4{-webkit-animation-delay:.6s!important;animation-delay:.6s!important;-webkit-transition-delay:.6s!important;transition-delay:.6s!important}.d5{-webkit-animation-delay:.8s!important;animation-delay:.8s!important;-webkit-transition-delay:.8s!important;transition-delay:.8s!important}.d6{-webkit-animation-delay:1s!important;animation-delay:1s!important;-webkit-transition-delay:1s!important;transition-delay:1s!important}.d7{-webkit-animation-delay:1.2s!important;animation-delay:1.4s!important;-webkit-transition-delay:1.4s!important;transition-delay:1.4s!important}.d8{-webkit-animation-delay:1.6s!important;animation-delay:1.8s!important;-webkit-transition-delay:1.8s!important;transition-delay:1.8s!important}.d9{-webkit-animation-delay:2s!important;animation-delay:2s!important;-webkit-transition-delay:2s!important;transition-delay:2s!important}.d10{-webkit-animation-delay:3s!important;animation-delay:3s!important;-webkit-transition-delay:3s!important;transition-delay:3s!important}.s1{-webkit-animation-duration:.6s!important;animation-duration:.6s!important}.s2{-webkit-animation-duration:.8s!important;animation-duration:.8s!important}.s3{-webkit-animation-duration:.9s!important;animation-duration:.9!important}.s4{-webkit-animation-duration:1.2s!important;animation-duration:1.2s!important}.s5{-webkit-animation-duration:1.5s!important;animation-duration:1s!important}.s6{-webkit-animation-duration:2s!important;animation-duration:2s!important}.s7{-webkit-animation-duration:4s!important;animation-duration:4s!important}.s8{-webkit-animation-duration:6s!important;animation-duration:6s!important}.s9{-webkit-animation-duration:8s!important;animation-duration:8s!important}.s10{-webkit-animation-duration:10s!important;animation-duration:10s!important}.hideAnimation{opacity:0}.showAnimation{opacity:1}.animate{-webkit-transform:translateZ(0);-webkit-animation-duration:1s;animation-duration:1s;-webkit-font-smoothing:antialiased}.animate.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes hang{0%{-webkit-transform:perspective(400px) rotateX(40deg);opacity:0}25%{-webkit-transform:perspective(400px) rotateX(-15deg);opacity:1}50%{-webkit-transform:perspective(400px) rotateX(10deg)}75%{-webkit-transform:perspective(400px) rotateX(-5deg)}100%{-webkit-transform:perspective(400px) rotateX(0deg)}}@keyframes hang{0%{-ms-transform:perspective(400px) rotateX(40deg);transform:perspective(400px) rotateX(40deg);opacity:0}25%{-ms-transform:perspective(400px) rotateX(-15deg);transform:perspective(400px) rotateX(-15deg);opacity:1}50%{-ms-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg)}75%{-ms-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}100%{-ms-transform:perspective(400px) rotateX(0deg);transform:perspective(400px) rotateX(0deg)}}.hang{-webkit-animation-name:hang;animation-name:hang;-webkit-transform-origin:center top;-ms-transform-origin:center top;transform-origin:center top}@-webkit-keyframes blow{0%{-webkit-transform:perspective(400px) rotateX(90deg) scaleX(.1);opacity:0}30%{-webkit-transform:perspective(400px) rotateX(-6deg);opacity:1}60%{-webkit-transform:perspective(400px) rotateX(3deg) scaleX(1)}100%{-webkit-transform:perspective(400px) rotateX(0deg) skewX(0deg)}}@keyframes blow{0%{-ms-transform:perspective(400px) rotateX(90deg) scaleX(.1);transform:perspective(400px) rotateX(90deg) scaleX(.1);opacity:0}30%{-ms-transform:perspective(400px) rotateX(-6deg);transform:perspective(400px) rotateX(-6deg);opacity:1}60%{-ms-transform:perspective(400px) rotateX(-3deg) scaleX(1);transform:perspective(400px) rotateX(-3deg) scaleX(1)}100%{-ms-transform:perspective(400px) rotateX(0deg);transform:perspective(400px) rotateX(0deg)}}.blow{-webkit-animation-name:blow;animation-name:blow;-webkit-transform-origin:center bottom;-ms-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(90deg);opacity:0}50%{-webkit-transform:perspective(400px) rotateY(-15deg)}75%{-webkit-transform:perspective(400px) rotateY(10deg)}100%{-webkit-transform:perspective(400px) rotateY(0deg);opacity:1}}@keyframes flip{0%{-ms-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}50%{-ms-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-10deg)}75%{-ms-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg)}100%{-ms-transform:perspective(400px) rotateY(0deg);transform:perspective(400px) rotateY(0deg);opacity:1}}.flip{-webkit-animation-name:flip;animation-name:flip;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes magnet{0%{opacity:0;-webkit-transform-origin:50% 50%;-webkit-transform:scale(0,0)}90%{opacity:1;-webkit-transform-origin:50% 50%;-webkit-transform:scale(0.9,.9)}100%{opacity:1;-webkit-transform-origin:50% 50%;-webkit-transform:scale(1,1)}}@keyframes magnet{0%{opacity:0;transform-origin:50% 50%;transform:scale(0,0)}90%{opacity:1;transform-origin:50% 50%;transform:scale(0.9,.9)}100%{opacity:1;transform-origin:50% 50%;transform:scale(1,1)}}.magnet{-webkit-animation-name:magnet;animation-name:magnet}@-webkit-keyframes blur{0%{opacity:0;-webkit-transform-origin:50% 50%;-webkit-transform:scale(2,2);-webkit-filter:blur(2px)}100%{opacity:1;-webkit-transform-origin:50% 50%;-webkit-transform:scale(1,1);-webkit-filter:blur(0px)}}@keyframes blur{0%{opacity:0;transform-origin:50% 50%;transform:scale(2,2);filter:blur(2px)}100%{opacity:1;transform-origin:50% 50%;transform:scale(1,1);filter:blur(0px)}}.blur{-webkit-animation-name:blur;animation-name:blur}@-webkit-keyframes drop{0%{-webkit-transform:translateY(-2000px)}40%,60%,80%{-webkit-transform:translateY(0)}50%{-webkit-transform:translateY(-30px)}70%{-webkit-transform:translateY(-6px)}}@keyframes drop{0%{-ms-transform:translateY(-2000px);transform:translateY(-2000px)}40%,60%,80%{-ms-transform:translateY(0);transform:translateY(0)}50%{-ms-transform:translateY(-30px);transform:translateY(-30px)}70%{-ms-transform:translateY(-6px);transform:translateY(-6px)}}.drop{-webkit-animation-name:drop;animation-name:drop;-webkit-transform-origin:center bottom;-ms-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}@keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}@-webkit-keyframes pulse{0%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.1);transform:scale(1.1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes pulse{0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}}.pulse{-webkit-animation-name:pulse;animation-name:pulse;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes band{0%{-webkit-transform:scale(1);transform:scale(1);opacity:0}30%{-webkit-transform:scaleX(1.25) scaleY(0.75);transform:scaleX(1.25) scaleY(0.75);opacity:1}40%{-webkit-transform:scaleX(0.75) scaleY(1.25);transform:scaleX(0.75) scaleY(1.25)}60%{-webkit-transform:scaleX(1.15) scaleY(0.85);transform:scaleX(1.15) scaleY(0.85)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes band{0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:0}30%{-webkit-transform:scaleX(1.25) scaleY(0.75);-ms-transform:scaleX(1.25) scaleY(0.75);transform:scaleX(1.25) scaleY(0.75);opacity:1}40%{-webkit-transform:scaleX(0.75) scaleY(1.25);-ms-transform:scaleX(0.75) scaleY(1.25);transform:scaleX(0.75) scaleY(1.25)}60%{-webkit-transform:scaleX(1.15) scaleY(0.85);-ms-transform:scaleX(1.15) scaleY(0.85);transform:scaleX(1.15) scaleY(0.85)}100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}}.band{-webkit-animation-name:band;animation-name:band;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes alert{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%,80%{-webkit-transform:translateX(10px);transform:translateX(10px)}}@keyframes alert{0%,100%{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px);-ms-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%,80%{-webkit-transform:translateX(10px);-ms-transform:translateX(10px);transform:translateX(10px)}}.alert{-webkit-animation-name:alert;animation-name:alert;-webkit-transform-origin:top center;-ms-transform-origin:top center;transform-origin:top center}@-webkit-keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);-ms-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);-ms-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg)}100%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;-webkit-animation-name:swing;animation-name:swing;animation-timing-function:cubic-bezier(0,.6,.8,1);-webkit-animation-timing-function:cubic-bezier(0,.6,.8,1)}@-webkit-keyframes tada{0%{-webkit-transform:scale(1);transform:scale(1)}10%,20%{-webkit-transform:scale(0.9) rotate(-3deg);transform:scale(0.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg);transform:scale(1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg);transform:scale(1.1) rotate(-3deg)}100%{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0)}}@keyframes tada{0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}10%,20%{-webkit-transform:scale(0.9) rotate(-3deg);-ms-transform:scale(0.9) rotate(-3deg);transform:scale(0.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg);-ms-transform:scale(1.1) rotate(3deg);transform:scale(1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg);-ms-transform:scale(1.1) rotate(-3deg);transform:scale(1.1) rotate(-3deg)}100%{-webkit-transform:scale(1) rotate(0);-ms-transform:scale(1) rotate(0);transform:scale(1) rotate(0)}}.tada{-webkit-animation-name:tada;animation-name:tada;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes shake{0%{-webkit-transform:translateX(0%);transform:translateX(0%)}15%{-webkit-transform:translateX(-25%) rotate(-5deg);transform:translateX(-25%) rotate(-5deg)}30%{-webkit-transform:translateX(20%) rotate(3deg);transform:translateX(20%) rotate(3deg)}45%{-webkit-transform:translateX(-15%) rotate(-3deg);transform:translateX(-15%) rotate(-3deg)}60%{-webkit-transform:translateX(10%) rotate(2deg);transform:translateX(10%) rotate(2deg)}75%{-webkit-transform:translateX(-5%) rotate(-1deg);transform:translateX(-5%) rotate(-1deg)}100%{-webkit-transform:translateX(0%);transform:translateX(0%)}}@keyframes shake{0%{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}15%{-webkit-transform:translateX(-25%) rotate(-5deg);-ms-transform:translateX(-25%) rotate(-5deg);transform:translateX(-25%) rotate(-5deg)}30%{-webkit-transform:translateX(20%) rotate(3deg);-ms-transform:translateX(20%) rotate(3deg);transform:translateX(20%) rotate(3deg)}45%{-webkit-transform:translateX(-15%) rotate(-3deg);-ms-transform:translateX(-15%) rotate(-3deg);transform:translateX(-15%) rotate(-3deg)}60%{-webkit-transform:translateX(10%) rotate(2deg);-ms-transform:translateX(10%) rotate(2deg);transform:translateX(10%) rotate(2deg)}75%{-webkit-transform:translateX(-5%) rotate(-1deg);-ms-transform:translateX(-5%) rotate(-1deg);transform:translateX(-5%) rotate(-1deg)}100%{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}}.shake{-webkit-animation-name:shake;animation-name:shake;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes bounce{0%{opacity:0;-webkit-transform:scale(.3);transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05);transform:scale(1.05)}70%{-webkit-transform:scale(.9);transform:scale(.9)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes bounce{0%{opacity:0;-webkit-transform:scale(.3);-ms-transform:scale(.3);transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05)}70%{-webkit-transform:scale(.9);-ms-transform:scale(.9);transform:scale(.9)}100%{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes bounceDown{0%{opacity:0;-webkit-transform:translateY(-2000px);transform:translateY(-2000px)}60%{opacity:1;-webkit-transform:translateY(30px);transform:translateY(30px)}80%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes bounceDown{0%{opacity:0;-webkit-transform:translateY(-2000px);-ms-transform:translateY(-2000px);transform:translateY(-2000px)}60%{opacity:1;-webkit-transform:translateY(30px);-ms-transform:translateY(30px);transform:translateY(30px)}80%{-webkit-transform:translateY(-10px);-ms-transform:translateY(-10px);transform:translateY(-10px)}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.bounceDown{-webkit-animation-name:bounceDown;animation-name:bounceDown}@-webkit-keyframes bounceLeft{0%{opacity:0;-webkit-transform:translateX(-2000px);transform:translateX(-2000px)}60%{opacity:1;-webkit-transform:translateX(30px);transform:translateX(30px)}80%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes bounceLeft{0%{opacity:0;-webkit-transform:translateX(-2000px);-ms-transform:translateX(-2000px);transform:translateX(-2000px)}60%{opacity:1;-webkit-transform:translateX(30px);-ms-transform:translateX(30px);transform:translateX(30px)}80%{-webkit-transform:translateX(-10px);-ms-transform:translateX(-10px);transform:translateX(-10px)}100%{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}}.bounceLeft{-webkit-animation-name:bounceLeft;animation-name:bounceLeft}@-webkit-keyframes bounceRight{0%{opacity:0;-webkit-transform:translateX(2000px);transform:translateX(2000px)}60%{opacity:1;-webkit-transform:translateX(-30px);transform:translateX(-30px)}80%{-webkit-transform:translateX(10px);transform:translateX(10px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes bounceRight{0%{opacity:0;-webkit-transform:translateX(2000px);-ms-transform:translateX(2000px);transform:translateX(2000px)}60%{opacity:1;-webkit-transform:translateX(-30px);-ms-transform:translateX(-30px);transform:translateX(-30px)}80%{-webkit-transform:translateX(10px);-ms-transform:translateX(10px);transform:translateX(10px)}100%{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}}.bounceRight{-webkit-animation-name:bounceRight;animation-name:bounceRight}@-webkit-keyframes bounceUp{0%{opacity:0;-webkit-transform:translateY(300px);transform:translateY(300px)}60%{opacity:1;-webkit-transform:translateY(-30px);transform:translateY(-30px)}80%{-webkit-transform:translateY(10px);transform:translateY(10px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes bounceUp{0%{opacity:0;-webkit-transform:translateY(2000px);-ms-transform:translateY(2000px);transform:translateY(0px)}60%{opacity:1;-webkit-transform:translateY(-30px);-ms-transform:translateY(-30px);transform:translateY(-30px)}80%{-webkit-transform:translateY(10px);-ms-transform:translateY(10px);transform:translateY(10px)}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.bounceUp{-webkit-animation-name:bounceUp;animation-name:bounceUp}@-webkit-keyframes fade{0%{opacity:0}100%{opacity:1}}@keyframes fade{0%{opacity:0}100%{opacity:1}}.fade{-webkit-animation-name:fade;animation-name:fade}@-webkit-keyframes fadeDown{0%{opacity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes fadeDown{0%{opacity:0;-webkit-transform:translateY(-20px);-ms-transform:translateY(-20px);transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.fadeDown{-webkit-animation-name:fadeDown;animation-name:fadeDown}@-webkit-keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-20px);transform:translateX(-20px)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-20px);-ms-transform:translateX(-20px);transform:translateX(-20px)}100%{opacity:1;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}}.fadeLeft{-webkit-animation-name:fadeLeft;animation-name:fadeLeft}@-webkit-keyframes fadeRight{0%{opacity:0;-webkit-transform:translateX(20px);transform:translateX(20px)}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeRight{0%{opacity:0;-webkit-transform:translateX(20px);-ms-transform:translateX(20px);transform:translateX(20px)}100%{opacity:1;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}}.fadeRight{-webkit-animation-name:fadeRight;animation-name:fadeRight}@-webkit-keyframes fadeUp{0%{opacity:0;-webkit-transform:translateY(20px);transform:translateY(20px)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes fadeUp{0%{opacity:0;-webkit-transform:translateY(20px);-ms-transform:translateY(20px);transform:translateY(20px)}100%{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.fadeUp{-webkit-animation-name:fadeUp;animation-name:fadeUp}@-webkit-keyframes rotate{0%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}100%{-webkit-transform:rotate(0);transform:rotate(0)}}@keyframes rotate{0%{-webkit-transform:rotate(-360deg);-ms-transform:rotate(-360deg);transform:rotate(-360deg)}100%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}.rotate{-webkit-animation-name:rotate;animation-name:rotate;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes rotateLeft{0%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes rotateLeft{0%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}100%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}.rotateLeft{-webkit-animation-name:rotateLeft;animation-name:rotateLeft;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes rotateRight{0%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}100%{-webkit-transform:rotate(0);transform:rotate(0)}}@keyframes rotateRight{0%{-webkit-transform:rotate(-360deg);-ms-transform:rotate(-360deg);transform:rotate(-360deg)}100%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}.rotateRight{-webkit-animation-name:rotateRight;animation-name:rotateRight;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes glide{0%{-webkit-transform:translateY(-300px);transform:translateY(-300px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes glide{0%{-webkit-transform:translateY(-300px);-ms-transform:translateY(-300px);transform:translateY(-300px)}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.glide{-webkit-animation-name:glide;animation-name:glide;-webkit-animation-timing-function:cubic-bezier(.01,.84,.04,.99);animation-timing-function:cubic-bezier(.01,.84,.04,.99);-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes glideDown{0%{-webkit-transform:translateY(-2000px);transform:translateY(-2000px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes glideDown{0%{-webkit-transform:translateY(-2000px);-ms-transform:translateY(-2000px);transform:translateY(-2000px)}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.glideDown{-webkit-animation-name:glideDown;animation-name:glideDown;-webkit-animation-timing-function:cubic-bezier(.01,.84,.04,.99);animation-timing-function:cubic-bezier(.01,.84,.04,.99);-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes glideLeft{0%{-webkit-transform:translateX(-2000px);transform:translateX(-2000px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes glideLeft{0%{-webkit-transform:translateX(-2000px);-ms-transform:translateX(-2000px);transform:translateX(-2000px)}100%{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}}.glideLeft{-webkit-animation-name:glideLeft;animation-name:glideLeft;animation-timing-function:cubic-bezier(.01,.84,.04,.99);-webkit-animation-timing-function:cubic-bezier(.01,.84,.04,.99);-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes glideRight{0%{-webkit-transform:translateX(2000px);transform:translateX(2000px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes glideRight{0%{-webkit-transform:translateX(2000px);-ms-transform:translateX(2000px);transform:translateX(2000px)}100%{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}}.glideRight{-webkit-animation-name:glideRight;animation-name:glideRight;-webkit-animation-timing-function:cubic-bezier(.01,.84,.04,.99);animation-timing-function:cubic-bezier(.01,.84,.04,.99);-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes glideUp{0%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}20%{opacity:1}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes glideUp{0%{-webkit-transform:translateY(300px);-ms-transform:translateY(300px);transform:translateY(300px);opacity:0}20%{opacity:1}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.glideUp{-webkit-animation-name:glideUp;animation-name:glideUp;-webkit-animation-timing-function:cubic-bezier(.01,.84,.04,.99);animation-timing-function:cubic-bezier(.01,.84,.04,.99);-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes space{0%{opacity:0;-webkit-transform-origin:50% 50%;-webkit-transform:scale(.2) translate(0%,0)}100%{opacity:1;-webkit-transform-origin:50% 50%;-webkit-transform:scale(1) translate(0%,0)}}@keyframes space{0%{opacity:0;transform-origin:50% 50%;transform:scale(.2) translate(0%,0)}100%{opacity:1;transform-origin:50% 50%;transform:scale(1) translate(0%,0)}}.space{-webkit-animation-name:space;animation-name:space;animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}@-webkit-keyframes spaceUp{0%{opacity:0;-webkit-transform-origin:50% 0;-webkit-transform:scale(.2) translate(0%,-200%)}100%{opacity:1;-webkit-transform-origin:50% 0;-webkit-transform:scale(1) translate(0%,0)}}@keyframes spaceUp{0%{opacity:0;transform-origin:50% 0;transform:scale(.2) translate(0%,-200%)}100%{opacity:1;transform-origin:50% 0;transform:scale(1) translate(0%,0)}}.spaceUp{-webkit-animation-name:spaceUp;animation-name:spaceUp;animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0}@-webkit-keyframes spaceRight{0%{opacity:0;-webkit-transform-origin:100% 50%;-webkit-transform:scale(.2) translate(200%,0)}100%{opacity:1;-webkit-transform-origin:100% 50%;-webkit-transform:scale(1) translate(0%,0)}}@keyframes spaceRight{0%{opacity:0;transform-origin:100% 50%;transform:scale(.2) translate(200%,0)}100%{opacity:1;transform-origin:100% 50%;transform:scale(1) translate(0%,0)}}.spaceRight{-webkit-animation-name:spaceRight;animation-name:spaceRight;animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-transform-origin:100% 50%;-ms-transform-origin:100% 50%;transform-origin:100% 50%}@-webkit-keyframes spaceDown{0%{opacity:0;-webkit-transform-origin:50% 100%;-webkit-transform:scale(.2) translate(0%,200%)}100%{opacity:1;-webkit-transform-origin:50% 100%;-webkit-transform:scale(1) translate(0%,0)}}@keyframes spaceDown{0%{opacity:0;transform-origin:50% 100%;transform:scale(.2) translate(0%,200%)}100%{opacity:1;transform-origin:50% 100%;transform:scale(1) translate(0%,0)}}.spaceDown{-webkit-animation-name:spaceDown;animation-name:spaceDown;animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-transform-origin:50% 100%;-ms-transform-origin:50% 100%;transform-origin:50% 100%}@-webkit-keyframes spaceLeft{0%{opacity:0;-webkit-transform-origin:0 50%;-webkit-transform:scale(.2) translate(-200%,0)}100%{opacity:1;-webkit-transform-origin:0 50%;-webkit-transform:scale(1) translate(0%,0)}}@keyframes spaceLeft{0%{opacity:0;transform-origin:0 50%;transform:scale(.2) translate(-200%,0)}100%{opacity:1;transform-origin:0 50%;transform:scale(1) translate(0%,0)}}.spaceLeft{-webkit-animation-name:spaceLeft;animation-name:spaceLeft;animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-animation-timing-function:cubic-bezier(0,.75,.85,1);-webkit-transform-origin:0 50%;-ms-transform-origin:0 50%;transform-origin:0 50%}@-webkit-keyframes bar{0%{-webkit-transform:scale(.2);transform:scale(.2);opacity:0}20%{opacity:1}50%{-webkit-transform:scaleX(1) scaleY(.2);transform:scaleX(1)}100%{-webkit-transform:scaleY(1);transform:scaleY(1)}}@keyframes bar{0%{-ms-transform:scale(.2);transform:scale(.2);opacity:0}20%{opacity:1}50%{-ms-transform:scaleX(1) scaleY(.2);transform:scaleX(1)}100%{-ms-transform:scaleY(1);transform:scaleY(1)}}.bar{-webkit-animation-name:bar;animation-name:bar;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center}@-webkit-keyframes barRight{0%{-webkit-transform:scaleX(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleX(1)}}@keyframes barRight{0%{-webkit-transform:scaleX(.1);-ms-transform:scaleX(.1);transform:scaleX(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1)}}.barRight{-webkit-animation-name:barRight;animation-name:barRight;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:top left;-ms-transform-origin:top left;transform-origin:top left}@-webkit-keyframes barLeft{0%{-webkit-transform:scaleX(.1);-ms-transform:scaleX(.1);transform:scaleX(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1)}}@keyframes barLeft{0%{-webkit-transform:scaleX(.1);-ms-transform:scaleX(.1);transform:scaleX(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1)}}.barLeft{-webkit-animation-name:barLeft;animation-name:barLeft;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:top right;-ms-transform-origin:top right;transform-origin:top right}@-webkit-keyframes barUp{0%{-webkit-transform:scaleY(.1);-ms-transform:scaleY(.1);transform:scaleY(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleY(1);-ms-transform:scaleY(1);transform:scaleY(1)}}@keyframes barUp{0%{-webkit-transform:scaleY(.1);-ms-transform:scaleY(.1);transform:scaleY(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleY(1);-ms-transform:scaleY(1);transform:scaleY(1)}}.barUp{-webkit-animation-name:barUp;animation-name:barUp;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center}@-webkit-keyframes barDown{0%{-webkit-transform:scaleY(.1);-ms-transform:scaleY(.1);transform:scaleY(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleY(1);-ms-transform:scaleY(1);transform:scaleY(1)}}@keyframes barDown{0%{-webkit-transform:scaleY(.1);-ms-transform:scaleY(.1);transform:scaleY(.1);opacity:0}20%{opacity:1}100%{-webkit-transform:scaleY(1);-ms-transform:scaleY(1);transform:scaleY(1)}}.barDown{-webkit-animation-name:barDown;animation-name:barDown;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:top center;-ms-transform-origin:top center;transform-origin:top center}</style>
+ </head>
  <body>
 
-  <div class="breakpoint active" id="bp_infinity" data-min-width="769"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox" id="page"><!-- column -->
+  <div class="breakpoint active" id="bp_infinity" data-min-width="961"><!-- responsive breakpoint node -->
+   <div class="clearfix" id="page"><!-- column -->
     <div class="position_content" id="page_position_content">
-     <div class="clearfix colelem" id="pu190"><!-- group -->
-      <div class="browser_width grpelem shared_content" id="u190-bw" data-content-guid="u190-bw_content">
-       <div class="museBGSize" id="u190"><!-- simple frame --></div>
-      </div>
-      <div class="browser_width grpelem shared_content" id="u201-bw" data-content-guid="u201-bw_content">
-       <div id="u201"><!-- simple frame --></div>
-      </div>
-      <div class="browser_width grpelem shared_content" id="u167-bw" data-content-guid="u167-bw_content">
-       <div id="u167"><!-- simple frame --></div>
-      </div>
-      <div class="clip_frame grpelem" id="u150"><!-- image -->
-       <img class="block temp_no_img_src" id="u150_img" data-orig-src="images/%d0%bb%d0%be%d0%b3%d0%be%d1%82%d0%b8%d0%bf%20%d0%ba%d0%b0%d0%bb%d1%8c%d0%ba%d1%83%d0%bb%d1%8f%d1%82%d0%be%d1%80.png?crc=219678707" alt="" data-image-width="86" data-image-height="86" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u160-4" data-content-guid="u160-4_content"><!-- content -->
-       <p id="u160-2">Оценка для Сбербанка</p>
-      </div>
-      <div class="clearfix grpelem" id="pu210-4"><!-- column -->
-       <a class="nonblock nontext anim_swing rounded-corners shadow clearfix colelem shared_content" id="u210-4" href="index.html#zakaz" data-content-guid="u210-4_content"><!-- content --><p id="u210-2">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</p></a>
-       <div class="colelem" id="u1049" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="1" data-mu-ie-matrix-dy="-1"><!-- rasterized frame -->
-        <img class="temp_no_img_src" id="u1049_img" alt="" data-orig-src="images/right-arrow-circular-button-u1049.png?crc=290191748" data-image-width="59" src="images/blank.gif?crc=4208392903"/>
+     <div class="clearfix colelem" id="pu327"><!-- group -->
+      <div class="museBGSize grpelem" id="u327"><!-- simple frame --></div>
+      <div class="browser_width grpelem" id="u342-bw">
+       <div class="rgba-background" id="u342"><!-- column -->
+        <div class="clearfix" id="u342_align_to_page">
+         <div class="colelem shared_content" id="u837" title="animate barRight" data-content-guid="u837_content"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="u399-4"><!-- content -->
+          <p id="u399-2">ОЦЕНКА ДЛЯ СБЕРБАНКА</p>
+         </div>
+         <div class="clearfix colelem" id="u400-7"><!-- content -->
+          <p id="u400-3">&nbsp;<span id="u400-2">АККРЕДИТОВАННАЯ ОЦЕНКА НЕДВИЖИМОСТИ В КАЗАНИ.</span></p>
+          <p id="u400-5"><span id="u400-4">САМЫЕ НИЗКИЕ ЦЕНЫ! БЕСПЛАТНЫЙ ВЫЕЗД НА ОСМОТР!</span></p>
+         </div>
+         <div class="colelem shared_content" id="u905" title="animate barLeft" data-content-guid="u905_content"><!-- simple frame --></div>
+         <div class="rounded-corners shadow clearfix colelem" id="u401-4"><!-- content -->
+          <p id="u401-2">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</p>
+         </div>
+        </div>
        </div>
       </div>
-      <div class="clearfix grpelem shared_content" id="u164-4" data-content-guid="u164-4_content"><!-- content -->
-       <p id="u164-2">8(987)22-686-44</p>
+      <div class="browser_width grpelem shared_content" id="u789-bw" data-content-guid="u789-bw_content">
+       <div id="u789" class="shared_content" data-content-guid="u789_content"><!-- simple frame --></div>
       </div>
-      <div class="clearfix grpelem shared_content" id="u170-4" data-content-guid="u170-4_content"><!-- content -->
-       <p>ОЦЕНКА ДЛЯ СБЕРБАНКА</p>
-      </div>
-      <img class="grpelem temp_no_img_src" id="u207-7" alt="&nbsp;АККРЕДИТОВАННАЯ ОЦЕНКА НЕДВИЖИМОСТИ В КАЗАНИ. САМЫЕ НИЗКИЕ ЦЕНЫ! БЕСПЛАТНЫЙ ВЫЕЗД НА ОСМОТР!" data-orig-src="images/u207-7.png?crc=93836012" data-image-width="828" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <div class="grpelem" id="u501" title="animate pulse infinite"><!-- state-based BG images --></div>
+      <a class="nonblock nontext clearfix grpelem shared_content" id="u807-4" href="phoneto:+79872268644" data-content-guid="u807-4_content"><!-- content --><p id="u807-2">8(987)22-686-44</p></a>
      </div>
-     <div class="clearfix colelem shared_content" id="u1096-4" data-content-guid="u1096-4_content"><!-- content -->
+     <div class="colelem" id="u1885" title="animate barRight"><!-- simple frame --></div>
+     <div class="transition clearfix colelem" id="u1043-4"><!-- content -->
       <p>НАШИ УСЛУГИ</p>
      </div>
-     <div class="clearfix colelem" id="pu1102"><!-- group -->
-      <div class="clip_frame grpelem" id="u1102"><!-- image -->
-       <img class="block temp_no_img_src" id="u1102_img" data-orig-src="images/plans.png?crc=430493654" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
+     <div class="colelem" id="u1867" title="animate barLeft"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="pu1230"><!-- group -->
+      <div class="museBGSize grpelem" id="u1230" title="animate glideRight"><!-- simple frame --></div>
+      <div class="museBGSize grpelem" id="u1246" title="animate glideRight d2"><!-- simple frame --></div>
+      <div class="museBGSize grpelem" id="u1264" title="animate glideRight d4"><!-- simple frame --></div>
+      <div class="museBGSize grpelem" id="u1282" title="animate glideRight d6"><!-- simple frame --></div>
+     </div>
+     <div class="clearfix colelem" id="pu1397-4"><!-- group -->
+      <div class="clearfix grpelem" id="u1397-4" title="animate glideRight"><!-- content -->
+       <p>Оценка комнат</p>
       </div>
-      <div class="clip_frame grpelem" id="u1114"><!-- image -->
-       <img class="block temp_no_img_src" id="u1114_img" data-orig-src="images/house-plan-scale.png?crc=177473539" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
+      <div class="clearfix grpelem" id="u1432-4" title="animate glideRight d2"><!-- content -->
+       <p>Оценка квартир</p>
       </div>
-      <div class="clip_frame grpelem" id="u1126"><!-- image -->
-       <img class="block temp_no_img_src" id="u1126_img" data-orig-src="images/field-and-windmill.png?crc=3901869078" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
+      <div class="clearfix grpelem" id="u1457-4" title="animate glideRight d4"><!-- content -->
+       <p>Оценка участков</p>
       </div>
-      <div class="clip_frame grpelem" id="u1138"><!-- image -->
-       <img class="block temp_no_img_src" id="u1138_img" data-orig-src="images/house.png?crc=4231340117" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
+      <div class="clearfix grpelem" id="u1482-4" title="animate glideRight d6"><!-- content -->
+       <p>Оценка домов</p>
       </div>
      </div>
-     <div class="clearfix colelem" id="pu1150-4"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="u1150-4" data-content-guid="u1150-4_content"><!-- content -->
-       <p>Оценка комнаты</p>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u1156-4" data-content-guid="u1156-4_content"><!-- content -->
-       <p>Оценка квартиры</p>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u1168-4" data-content-guid="u1168-4_content"><!-- content -->
-       <p>Оценка участка</p>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u1174-4" data-content-guid="u1174-4_content"><!-- content -->
-       <p>Оценка дома</p>
-      </div>
-     </div>
-     <div class="clearfix colelem shared_content" id="u1190-4" data-content-guid="u1190-4_content"><!-- content -->
+     <div class="colelem" id="u1995" title="animate barRight"><!-- simple frame --></div>
+     <div class="transition clearfix colelem" id="u1996-4"><!-- content -->
       <p>ПРОЦЕДУРА ОЦЕНКИ</p>
      </div>
-     <div class="clearfix colelem" id="pu1196"><!-- group -->
-      <div class="clip_frame grpelem" id="u1196"><!-- image -->
-       <img class="block temp_no_img_src" id="u1196_img" data-orig-src="images/file.png?crc=295683243" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u1208-13" data-content-guid="u1208-13_content"><!-- content -->
-       <p id="u1208-2">Сбор необходимых документов для оценки</p>
-       <ul class="list0 nls-None" id="u1208-11">
-        <li id="u1208-4"><span id="u1208-3">свидетельство о регистрации права собственности на недвижимость, либо выписка из ЕГРН;</span></li>
-        <li id="u1208-6">технический паспорт БТИ (поэтажный план и экспликация)</li>
-        <li id="u1208-8">кадастровый паспорт (при наличии)</li>
-        <li id="u1208-10">копия паспорта Заказчика (первая страница и прописка)</li>
+     <div class="colelem" id="u1994" title="animate barLeft"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="pu2216"><!-- group -->
+      <div class="museBGSize grpelem shared_content" id="u2216" title="animate glideLeft d1" data-content-guid="u2216_content"><!-- simple frame --></div>
+      <div class="grpelem" id="u2550" title="animate glideLeft"><!-- simple frame --></div>
+      <div class="rounded-corners clearfix grpelem" id="u2136-13" title="animate glideRight d1"><!-- content -->
+       <p id="u2136-2">Сбор необходимых документов для оценки</p>
+       <ul class="list0 nls-None" id="u2136-11">
+        <li id="u2136-4">свидетельство о регистрации права собственности на недвижимость, либо выписка из ЕГРН;</li>
+        <li id="u2136-6">технический паспорт БТИ (поэтажный план и экспликация)</li>
+        <li id="u2136-8">кадастровый паспорт (при наличии)</li>
+        <li id="u2136-10">копия паспорта Заказчика (первая страница и прописка)</li>
        </ul>
       </div>
      </div>
-     <div class="clearfix colelem" id="pu1226-7"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="u1226-7" data-content-guid="u1226-7_content"><!-- content -->
-       <p id="u1226-2">Согласование даты и времени осмотра объекта оценки</p>
-       <ul class="list0 nls-None" id="u1226-5">
-        <li id="u1226-4"><span id="u1226-3">осмотр возможен в любое время включая выходные и праздничные дни</span></li>
+     <div class="clearfix colelem" id="pu2472-7"><!-- group -->
+      <div class="rounded-corners clearfix grpelem" id="u2472-7" title="animate glideLeft d1"><!-- content -->
+       <p id="u2472-2">Согласование даты и времени осмотра объекта оценки</p>
+       <ul class="list0 nls-None" id="u2472-5">
+        <li id="u2472-4">осмотр возможен в любое время включая выходные и праздничные дни</li>
        </ul>
       </div>
-      <div class="clip_frame grpelem" id="u1214"><!-- image -->
-       <img class="block temp_no_img_src" id="u1214_img" data-orig-src="images/calendar.png?crc=510613482" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
-      </div>
+      <div class="grpelem shared_content" id="u2258" title="animate glideRight" data-content-guid="u2258_content"><!-- simple frame --></div>
+      <div class="museBGSize grpelem" id="u2446" title="animate glideRight d1"><!-- simple frame --></div>
      </div>
-     <div class="clearfix colelem" id="pu1232"><!-- group -->
-      <div class="clip_frame grpelem" id="u1232"><!-- image -->
-       <img class="block temp_no_img_src" id="u1232_img" data-orig-src="images/camera.png?crc=3842235678" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u1244-7" data-content-guid="u1244-7_content"><!-- content -->
-       <p id="u1244-2">Осмотр объекта оценки</p>
-       <ul class="list0 nls-None" id="u1244-5">
-        <li id="u1244-4"><span id="u1244-3">осмотр происходит только в присутствии заказчика оценки</span></li>
+     <div class="clearfix colelem" id="pu2569"><!-- group -->
+      <div class="museBGSize grpelem" id="u2569" title="animate glideLeft d1"><!-- simple frame --></div>
+      <div class="grpelem shared_content" id="u2570" title="animate glideLeft" data-content-guid="u2570_content"><!-- simple frame --></div>
+      <div class="rounded-corners clearfix grpelem" id="u2568-7" title="animate glideRight d1"><!-- content -->
+       <p id="u2568-2">Осмотр объекта оценки</p>
+       <ul class="list0 nls-None" id="u2568-5">
+        <li id="u2568-4">осмотр происходит только в присутствии заказчика оценки</li>
        </ul>
       </div>
      </div>
-     <div class="clearfix colelem" id="pu1262-7"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="u1262-7" data-content-guid="u1262-7_content"><!-- content -->
-       <p id="u1262-2">Расчет рыночной стоимости объекта оценки</p>
-       <ul class="list0 nls-None" id="u1262-5">
-        <li id="u1262-4"><span id="u1262-3">расчет производится в течение дня после осмотра</span></li>
+     <div class="clearfix colelem" id="pu2682-7"><!-- group -->
+      <div class="rounded-corners clearfix grpelem" id="u2682-7" title="animate glideLeft d1"><!-- content -->
+       <p id="u2682-2">Расчет рыночной стоимости объекта оценки</p>
+       <ul class="list0 nls-None" id="u2682-5">
+        <li id="u2682-4">расчет производится в течение дня после осмотра</li>
        </ul>
       </div>
-      <div class="clip_frame grpelem" id="u1250"><!-- image -->
-       <img class="block temp_no_img_src" id="u1250_img" data-orig-src="images/file1.png?crc=4233802785" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
-      </div>
+      <div class="grpelem shared_content" id="u2680" title="animate glideRight" data-content-guid="u2680_content"><!-- simple frame --></div>
+      <div class="museBGSize grpelem" id="u2681" title="animate glideRight d1"><!-- simple frame --></div>
      </div>
-     <div class="clearfix colelem" id="pu1268"><!-- group -->
-      <div class="clip_frame grpelem" id="u1268"><!-- image -->
-       <img class="block temp_no_img_src" id="u1268_img" data-orig-src="images/report.png?crc=4161598450" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u1280-9" data-content-guid="u1280-9_content"><!-- content -->
-       <p id="u1280-2">Отчет готов</p>
-       <ul class="list0 nls-None" id="u1280-7">
-        <li id="u1280-4"><span id="u1280-3">готовый отчет за 1 день!</span></li>
-        <li id="u1280-6"><span id="u1280-5">бесплатная доставка!</span></li>
+     <div class="clearfix colelem" id="pu2733"><!-- group -->
+      <div class="museBGSize grpelem" id="u2733" title="animate glideLeft d1"><!-- simple frame --></div>
+      <div class="grpelem shared_content" id="u2734" title="animate glideLeft" data-content-guid="u2734_content"><!-- simple frame --></div>
+      <div class="rounded-corners clearfix grpelem" id="u2732-9" title="animate glideRight d1"><!-- content -->
+       <p id="u2732-2">Отчет готов!</p>
+       <ul class="list0 nls-None" id="u2732-7">
+        <li id="u2732-4">готовый отчет за 1 день!</li>
+        <li id="u2732-6">бесплатная доставка!</li>
        </ul>
       </div>
-      <div class="clip_frame grpelem" id="u1286"><!-- image -->
-       <img class="block temp_no_img_src" id="u1286_img" data-orig-src="images/thumb-up.png?crc=181997736" alt="" data-image-width="157" data-image-height="157" src="images/blank.gif?crc=4208392903"/>
-      </div>
+      <div class="museBGSize grpelem shared_content" id="u2776" title="animate pulse infinite" data-content-guid="u2776_content"><!-- simple frame --></div>
      </div>
-     <div class="clearfix colelem shared_content" id="u1298-4" data-content-guid="u1298-4_content"><!-- content -->
-      <p>НАШИ ПРЕИМУЩЕСТВА</p>
+     <div class="colelem" id="u2864" title="animate barRight"><!-- simple frame --></div>
+     <div class="transition clearfix colelem" id="u2862-4"><!-- content -->
+      <p>О КОМПАНИИ</p>
      </div>
-     <div class="clearfix colelem" id="pu313"><!-- group -->
-      <div class="museBGSize grpelem shared_content" id="u313" data-content-guid="u313_content"><!-- simple frame --></div>
-      <div class="museBGSize grpelem shared_content" id="u327" data-content-guid="u327_content"><!-- simple frame --></div>
-      <div class="museBGSize grpelem shared_content" id="u338" data-content-guid="u338_content"><!-- simple frame --></div>
-      <div class="museBGSize grpelem" id="u349"><!-- simple frame --></div>
+     <div class="colelem" id="u2863" title="animate barLeft"><!-- simple frame --></div>
+     <div class="rounded-corners clearfix colelem" id="u2906-15" title="animate glideRight d1"><!-- content -->
+      <p id="u2906-6">Наша оценочная организация аккредитована как <span id="u2906-2">Официальный партнер Сбербанка в Казани и Республике Татарстан</span> – Отчет об оценке закладной <span id="u2906-4">гарантированно</span> принимается во всех отделениях Сбербанка в г.Казань.</p>
+      <p id="u2906-10">Основная деятельность оценочной компании - <span id="u2906-8">Оценка для Сбербанка в Казани</span>, гарантирует Вам отчет, максимально соответствующий требованиям Сбербанка.</p>
+      <p id="u2906-13">Оценка квартиры или любой недвижимости для ипотеки независимым оценщиком или организацией в Казани занимает в среднем минимум три дня. Обращаясь к нам Вы получаете готовый отчет <span id="u2906-12">на следующий день после осмотра!</span></p>
      </div>
-     <div class="clearfix colelem" id="pu360"><!-- group -->
-      <div class="museBGSize grpelem" id="u360"><!-- simple frame --></div>
-      <div class="museBGSize grpelem shared_content" id="u371" data-content-guid="u371_content"><!-- simple frame --></div>
-      <div class="museBGSize grpelem shared_content" id="u382" data-content-guid="u382_content"><!-- simple frame --></div>
-      <div class="museBGSize grpelem shared_content" id="u393" data-content-guid="u393_content"><!-- simple frame --></div>
-     </div>
-     <div class="clearfix colelem shared_content" id="u410-9" data-content-guid="u410-9_content"><!-- content -->
-      <p id="u410-2">Наша оценочная организация аккредитована как Официальный партнер Сбербанка в Казани и Республике Татарстан – Отчет об оценке закладной гарантированно принимается во всех отделениях Сбербанка.</p>
-      <p id="u410-4">Основная деятельность оценочной компании - Оценка для Сбербанка в Казани, гарантирует Вам отчет, максимально соответствующий требованиям Сбербанка.</p>
-      <p id="u410-6">Оценка квартиры или любой недвижимости для ипотеки независимым оценщиком или организацией в Казани занимает в среднем минимум три дня. Обращаясь к нам Вы получаете готовый отчет на следующий день после осмотра!</p>
-      <p>&nbsp;</p>
-     </div>
-     <div class="clearfix colelem shared_content" id="u413-7" data-content-guid="u413-7_content"><!-- content -->
-      <p id="u413-2">№109 в реестре аккредитованных оценщиков Сбербанка в Республике Татарстан</p>
-      <p id="u413-4">ИП Бакиров Ренат Талгятович</p>
-      <p>&nbsp;</p>
-     </div>
-     <div class="clearfix colelem shared_content" id="u419-13" data-content-guid="u419-13_content"><!-- content -->
-      <p id="u419-2">ДОКУМЕНТЫ НЕОБХОДИМЫЕ ДЛЯ ОЦЕНКИ?</p>
-      <ul class="list0 nls-None" id="u419-11">
-       <li id="u419-4">Свидетельство о регистрации права собственности на недвижимость, либо выписка из ЕГРН;</li>
-       <li id="u419-6">Технический паспорт БТИ (поэтажный план и экспликация)</li>
-       <li id="u419-8">Кадастровый паспорт (при наличии)</li>
-       <li id="u419-10">Копия вашего паспорта как Заказчика оценки (первая страница и прописка)</li>
+     <div class="rounded-corners clearfix colelem" id="u2925-7" title="animate glideLeft d1"><!-- content -->
+      <p id="u2925-2">№109 в реестре аккредитованных оценщиков Сбербанка в Республике Татарстан:</p>
+      <ul class="list0 nls-None" id="u2925-5">
+       <li id="u2925-4">ИП Бакиров Ренат Талгятович</li>
       </ul>
      </div>
-     <div class="clearfix colelem shared_content" id="u434-4" data-content-guid="u434-4_content"><!-- content -->
-      <p id="u434-2">Контакты</p>
+     <div class="colelem" id="u2976" title="animate barRight"><!-- simple frame --></div>
+     <div class="transition clearfix colelem" id="u2974-4"><!-- content -->
+      <p>СЕРТИФИКАТЫ</p>
      </div>
-     <div class="clearfix colelem shared_content" id="u437-9" data-content-guid="u437-9_content"><!-- content -->
-      <p id="u437-2">89872268644</p>
-      <p id="u437-4">prosto-kzn@mail.ru</p>
-      <p id="u437-6">г. Казань, ул. Вишневского, д.24</p>
-      <p>&nbsp;</p>
+     <div class="colelem" id="u2975" title="animate barLeft"><!-- simple frame --></div>
+     <div class="SlideShowWidget clearfix colelem" id="slideshowu3242"><!-- none box -->
+      <div class="popup_anchor" id="u3243popup">
+       <div class="SlideShowContentPanel clearfix" id="u3243"><!-- stack box -->
+        <div class="SSSlide clip_frame clearfix grpelem" id="u3248"><!-- image -->
+         <img class="ImageInclude position_content" id="u3248_img" data-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016.jpg?crc=530322316" src="images/blank.gif?crc=4208392903" alt="" data-width="407" data-height="565"/>
+        </div>
+        <div class="SSSlide invi clip_frame clearfix grpelem" id="u3525"><!-- image -->
+         <img class="ImageInclude position_content" id="u3525_img" data-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b0.jpg?crc=370746811" src="images/blank.gif?crc=4208392903" alt="" data-width="724" data-height="522"/>
+        </div>
+        <div class="SSSlide invi clip_frame clearfix grpelem" id="u3606"><!-- image -->
+         <img class="ImageInclude position_content" id="u3606_img" data-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016.jpg?crc=4064185916" src="images/blank.gif?crc=4208392903" alt="" data-width="407" data-height="565"/>
+        </div>
+        <div class="SSSlide invi clip_frame clearfix grpelem" id="u3687"><!-- image -->
+         <img class="ImageInclude position_content" id="u3687_img" data-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017.jpg?crc=386693679" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="565"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u3255popup">
+       <div class="SSSlideLinks clearfix" id="u3255"><!-- horizontal-rows box -->
+        <div class="SSSlideLink clip_frame grpelem" id="u3258"><!-- image -->
+         <img class="block temp_no_img_src" id="u3258_img" data-orig-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016-crop-u3258.jpg?crc=3973556491" alt="" width="60" height="45" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame clearfix grpelem" id="u3548"><!-- image -->
+         <img class="position_content temp_no_img_src" id="u3548_img" data-orig-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b063x45.jpg?crc=311858608" alt="" width="62" height="45" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem" id="u3629"><!-- image -->
+         <img class="block temp_no_img_src" id="u3629_img" data-orig-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016-crop-u3629.jpg?crc=4167577999" alt="" width="60" height="45" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem" id="u3710"><!-- image -->
+         <img class="block temp_no_img_src" id="u3710_img" data-orig-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017-crop-u3710.jpg?crc=4120220640" alt="" width="60" height="45" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u3250popup">
+       <div class="SlideShowCaptionPanel clearfix" id="u3250"><!-- stack box -->
+        <div class="SSSlideCaption clearfix grpelem" id="u3252-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u3252-4_0_content">Выписка</p>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem" id="u3571-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u3571-4_0_content">Диплом</p>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem" id="u3652-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u3652-4_0_content">Свидетельство</p>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem" id="u3733-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u3733-4_0_content">Страховой полис</p>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u3263-4popup">
+       <div class="SSPreviousButton clearfix" id="u3263-4"><!-- content -->
+        <p class="shared_content" data-content-guid="u3263-4_0_content">&lt;</p>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u3264-4popup">
+       <div class="SSNextButton clearfix" id="u3264-4"><!-- content -->
+        <p class="shared_content" data-content-guid="u3264-4_0_content">&gt;</p>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u3254-4popup">
+       <div class="SlideShowLabel SSSlideCount clearfix" id="u3254-4"><!-- content -->
+        <p class="shared_content" data-content-guid="u3254-4_0_content">4 - 4</p>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u3265popup">
+       <div class="SSCloseButton popup_element clearfix" id="u3265"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u3266-4" data-content-guid="u3266-4_content"><!-- content -->
+         <p>x</p>
+        </div>
+       </div>
+      </div>
      </div>
-     <div class="size_fluid_width colelem shared_content" id="u447" data-content-guid="u447_content"><!-- custom html -->
+     <div class="colelem" id="u4430" title="animate barRight"><!-- simple frame --></div>
+     <div class="transition clearfix colelem" id="u4428-4"><!-- content -->
+      <p>ЦЕНЫ</p>
+     </div>
+     <div class="colelem" id="u4429" title="animate barLeft"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="pu4221-13"><!-- group -->
+      <div class="rounded-corners clearfix grpelem shared_content" id="u4221-13" title="animate glideLeft" data-content-guid="u4221-13_content"><!-- content -->
+       <p id="u4221-2">Оценить квартиру:</p>
+       <ul class="list0 nls-None" id="u4221-11">
+        <li id="u4221-4">1-но комнатная - 1 700 р.</li>
+        <li id="u4221-6">2-х комнатная - 2 000 р.</li>
+        <li id="u4221-8">3-х комнатная - 2 500 р.</li>
+        <li id="u4221-10">4-х комнатная 3 000 р.</li>
+       </ul>
+      </div>
+      <div class="rounded-corners clearfix grpelem shared_content" id="u4646-11" title="animate glideRight" data-content-guid="u4646-11_content"><!-- content -->
+       <p id="u4646-2">Оценить жилой дом (дачу):</p>
+       <ul class="list0 nls-None" id="u4646-9">
+        <li id="u4646-4">жилой дом до 100 кв.м. - 3 000 р.</li>
+        <li id="u4646-6">жилой дом до 300 кв.м. - 5 000 р.</li>
+        <li id="u4646-8">жилой дом более 300&nbsp; кв.м.&nbsp; - 10 000 р.</li>
+       </ul>
+      </div>
+     </div>
+     <div class="rounded-corners clearfix colelem shared_content" id="u4664-11" title="animate glideUp" data-content-guid="u4664-11_content"><!-- content -->
+      <p id="u4664-2">Оценить земельный участок (землю)</p>
+      <ul class="list0 nls-None" id="u4664-9">
+       <li id="u4664-4">земли поселений&nbsp; площадь до 20-ти соток - 2 000 р.</li>
+       <li id="u4664-6">земли поселений&nbsp; площадь от 20-ти до 40 соток - 5 000 р.</li>
+       <li id="u4664-8">земли поселений&nbsp; площадь от 40 соток - от 6 000 р.</li>
+      </ul>
+     </div>
+     <div class="clearfix colelem" id="pu4820-4"><!-- group -->
+      <div class="transition clearfix grpelem" id="u4820-4"><!-- content -->
+       <p id="u4820-2">ДОКУМЕНТЫ НЕОБХОДИМЫЕ ДЛЯ ОЦЕНКИ</p>
+      </div>
+      <div class="grpelem" id="u4856" title="animate barRight"><!-- simple frame --></div>
+     </div>
+     <div class="colelem" id="u4838" title="animate barLeft"><!-- simple frame --></div>
+     <div class="rounded-corners clearfix colelem shared_content" id="u4888-11" title="animate glideRight" data-content-guid="u4888-11_content"><!-- content -->
+      <ul class="list0 nls-None" id="u4888-9">
+       <li id="u4888-2">Свидетельство о регистрации права собственности на недвижимость, либо выписка из ЕГРН;</li>
+       <li id="u4888-4">Технический паспорт БТИ (поэтажный план и экспликация)</li>
+       <li id="u4888-6">Кадастровый паспорт (при наличии)</li>
+       <li id="u4888-8">Копия паспорта Заказчика оценки (первая страница и прописка)</li>
+      </ul>
+     </div>
+     <div class="clearfix colelem" id="pu4906-4"><!-- group -->
+      <div class="transition clearfix grpelem" id="u4906-4"><!-- content -->
+       <p>КОНТАКТЫ</p>
+      </div>
+      <div class="grpelem" id="u4908" title="animate barRight"><!-- simple frame --></div>
+     </div>
+     <div class="colelem" id="u4907" title="animate barLeft"><!-- simple frame --></div>
+     <a class="nonblock nontext clearfix colelem shared_content" id="u4975-5" href="phoneto:+79872268644" data-content-guid="u4975-5_content"><!-- content --><p id="u4975-2">89872268644</p><p>&nbsp;</p></a>
+     <a class="nonblock nontext clearfix colelem shared_content" id="u4976-4" href="mailto:prosto-kzn@mail.ru" data-content-guid="u4976-4_content"><!-- content --><p id="u4976-2">prosto-kzn@mail.ru</p></a>
+     <div class="clearfix colelem shared_content" id="u4951-4" data-content-guid="u4951-4_content"><!-- content -->
+      <p>г. Казань, ул. Вишневского, д.24</p>
+     </div>
+     <div class="size_fixed colelem shared_content" id="u4952" data-content-guid="u4952_content"><!-- custom html -->
       
 <iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%2C%20%D0%B2%D0%B8%D1%88%D0%BD%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2024&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
 
      </div>
-     <div class="clearfix colelem" id="pwidgetu719"><!-- group -->
-      <form class="form-grp clearfix grpelem" id="widgetu719" method="post" enctype="multipart/form-data" action="scripts/form-u719.php"><!-- none box -->
-       <div class="fld-grp clearfix grpelem" id="widgetu728" data-required="true"><!-- none box -->
-        <label class="fld-label grpelem" id="u730" for="widgetu728_input"><!-- state-based BG images --></label>
-        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u731-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu728_input" name="custom_U728" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu728_prompt" for="widgetu728_input"><span class="actAsPara shared_content" data-content-guid="widgetu728_prompt_0_content">Введите имя</span></label></span>
-       </div>
-       <div class="fld-grp clearfix grpelem" id="widgetu720" data-required="true" data-type="email"><!-- none box -->
-        <label class="fld-label grpelem" id="u722" for="widgetu720_input"><!-- state-based BG images --></label>
-        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u723-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu720_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu720_prompt" for="widgetu720_input"><span class="actAsPara shared_content" data-content-guid="widgetu720_prompt_0_content">Введите адрес электронной почты</span></label></span>
-       </div>
-       <div class="clearfix grpelem" id="u735-4"><!-- content -->
-        <p class="shared_content" data-content-guid="u735-4_0_content">Отправка формы…</p>
-       </div>
-       <div class="clearfix grpelem" id="u733-4"><!-- content -->
-        <p class="shared_content" data-content-guid="u733-4_0_content">На сервере произошла ошибка.</p>
-       </div>
-       <div class="clearfix grpelem" id="u732-4"><!-- content -->
-        <p class="shared_content" data-content-guid="u732-4_0_content">Форма получена.</p>
-       </div>
-       <button class="submit-btn NoWrap grpelem" id="u734" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="4"><!-- state-based BG images --></button>
-       <div class="fld-grp clearfix grpelem" id="widgetu724" data-required="false"><!-- none box -->
-        <label class="fld-label grpelem" id="u727" for="widgetu724_input"><!-- state-based BG images --></label>
-        <span class="fld-textarea actAsDiv clearfix grpelem" id="u725-4"><!-- content --><textarea class="wrapped-input" id="widgetu724_input" name="custom_U724" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu724_prompt" for="widgetu724_input"><span class="actAsPara shared_content" data-content-guid="widgetu724_prompt_0_content">Введите сообщение</span></label></span>
-       </div>
-      </form>
-      <a class="anchor_item grpelem shared_content" id="zakaz" data-content-guid="zakaz_content"></a>
-     </div>
-     <div class="clearfix colelem" id="pu1008"><!-- group -->
-      <div class="browser_width grpelem shared_content" id="u1008-bw" data-content-guid="u1008-bw_content">
-       <div id="u1008"><!-- simple frame --></div>
+     <a class="anchor_item colelem shared_content" id="zakaz" data-content-guid="zakaz_content"></a>
+     <form class="form-grp clearfix colelem" id="widgetu4953" method="post" enctype="multipart/form-data" action="scripts/form-u4953.php"><!-- none box -->
+      <div class="fld-grp clearfix grpelem" id="widgetu4965" data-required="true"><!-- none box -->
+       <label class="fld-label grpelem" id="u4967" for="widgetu4965_input"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4968-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu4965_input" name="custom_U4965" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu4965_prompt" for="widgetu4965_input"><span class="actAsPara shared_content" data-content-guid="widgetu4965_prompt_0_content">Введите имя</span></label></span>
       </div>
-      <img class="grpelem temp_no_img_src" id="u1020-8" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27. тел. 8-987-22-686-44" data-orig-src="images/u1020-8.png?crc=269014399" data-image-width="686" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     </div>
-     <div class="verticalspacer" data-offset-top="5043" data-content-above-spacer="5042" data-content-below-spacer="62"></div>
-     <div class="rounded-corners colelem shared_content" id="u1308" data-content-guid="u1308_content"><!-- simple frame --></div>
-     <div class="rounded-corners colelem shared_content" id="u1014" data-content-guid="u1014_content"><!-- simple frame --></div>
-     <div class="rounded-corners colelem" id="u1184"><!-- simple frame --></div>
-     <div class="rounded-corners colelem" id="u978"><!-- simple frame --></div>
-     <div class="rounded-corners colelem" id="u984"><!-- simple frame --></div>
-     <div class="rounded-corners colelem" id="u990"><!-- simple frame --></div>
-     <div class="rounded-corners colelem shared_content" id="u1002" data-content-guid="u1002_content"><!-- simple frame --></div>
-    </div>
-   </div>
-   <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/u730-ferr.png?crc=222059802" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u722-ferr.png?crc=355399383" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u734-r.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u734-m.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u734-fs.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u727-ferr.png?crc=189128107" alt="" src="images/blank.gif?crc=4208392903"/>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_768" data-max-width="768"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu190"><!-- group -->
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u190-bw_content"><!-- placeholder node --></span>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u201-bw_content"><!-- placeholder node --></span>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u167-bw_content"><!-- placeholder node --></span>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u150"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d0%bb%d0%be%d0%b3%d0%be%d1%82%d0%b8%d0%bf%20%d0%ba%d0%b0%d0%bb%d1%8c%d0%ba%d1%83%d0%bb%d1%8f%d1%82%d0%be%d1%80.png?crc=219678707" alt="" data-image-width="52" data-image-height="52" data-orig-id="u150_img" src="images/blank.gif?crc=4208392903"/>
+      <div class="clearfix grpelem" id="u4958-4"><!-- content -->
+       <p class="shared_content" data-content-guid="u4958-4_0_content">Отправка формы…</p>
       </div>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u160-4_content"><!-- placeholder node --></span>
-      <div class="clearfix grpelem" id="pu164-4"><!-- column -->
-       <span class="clearfix colelem placeholder" data-placeholder-for="u164-4_content"><!-- placeholder node --></span>
-       <div class="clearfix colelem" id="pu170-4"><!-- group -->
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u170-4_content"><!-- placeholder node --></span>
-        <img class="grpelem temp_no_id temp_no_img_src" alt="&nbsp;АККРЕДИТОВАННАЯ ОЦЕНКА НЕДВИЖИМОСТИ В КАЗАНИ. САМЫЕ НИЗКИЕ ЦЕНЫ! БЕСПЛАТНЫЙ ВЫЕЗД НА ОСМОТР!" data-orig-src="images/u207-72.png?crc=4055413881" data-image-width="496" data-orig-id="u207-7" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-        <span class="nonblock nontext anim_swing rounded-corners shadow clearfix grpelem placeholder" data-placeholder-for="u210-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1096-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1150-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1156-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1168-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1174-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1190-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1208-13_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1226-7_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1244-7_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1262-7_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1280-9_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u1298-4_content"><!-- placeholder node --></span>
-       </div>
-       <div class="colelem temp_no_id" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="1" data-mu-ie-matrix-dy="-1" data-orig-id="u1049"><!-- rasterized frame -->
-        <img class="temp_no_id temp_no_img_src" alt="" data-orig-src="images/right-arrow-circular-button-u10492.png?crc=3795198018" data-image-width="37" data-orig-id="u1049_img" src="images/blank.gif?crc=4208392903"/>
-       </div>
+      <div class="clearfix grpelem" id="u4964-4"><!-- content -->
+       <p class="shared_content" data-content-guid="u4964-4_0_content">На сервере произошла ошибка.</p>
       </div>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u1008-bw_content"><!-- placeholder node --></span>
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu1102"><!-- group -->
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1102"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/plans.png?crc=430493654" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1102_img" src="images/blank.gif?crc=4208392903"/>
+      <div class="clearfix grpelem" id="u4959-4"><!-- content -->
+       <p class="shared_content" data-content-guid="u4959-4_0_content">Форма получена.</p>
       </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1114"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/house-plan-scale.png?crc=177473539" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1114_img" src="images/blank.gif?crc=4208392903"/>
+      <button class="submit-btn NoWrap grpelem" id="u4969" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="4"><!-- state-based BG images --></button>
+      <div class="fld-grp clearfix grpelem" id="widgetu4954" data-required="false"><!-- none box -->
+       <label class="fld-label grpelem" id="u4956" for="widgetu4954_input"><!-- state-based BG images --></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem" id="u4957-4"><!-- content --><textarea class="wrapped-input" id="widgetu4954_input" name="custom_U4954" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu4954_prompt" for="widgetu4954_input"><span class="actAsPara shared_content" data-content-guid="widgetu4954_prompt_0_content">Введите сообщение</span></label></span>
       </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1126"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/field-and-windmill.png?crc=3901869078" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1126_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1138"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/house.png?crc=4231340117" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1138_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-     </div>
-     <div class="clip_frame colelem temp_no_id" data-orig-id="u1196"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/file.png?crc=295683243" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1196_img" src="images/blank.gif?crc=4208392903"/>
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu313"><!-- group -->
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u313_content"><!-- placeholder node --></span>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u327_content"><!-- placeholder node --></span>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u338_content"><!-- placeholder node --></span>
-      <div class="museBGSize clearfix grpelem temp_no_id" data-orig-id="u349"><!-- group -->
-       <div class="clip_frame grpelem temp_no_id" data-orig-id="u1214"><!-- image -->
-        <img class="block temp_no_id temp_no_img_src" data-orig-src="images/calendar.png?crc=510613482" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1214_img" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu360"><!-- group -->
-      <div class="museBGSize clearfix grpelem temp_no_id" data-orig-id="u360"><!-- group -->
-       <div class="clip_frame grpelem temp_no_id" data-orig-id="u1232"><!-- image -->
-        <img class="block temp_no_id temp_no_img_src" data-orig-src="images/camera.png?crc=3842235678" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1232_img" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u371_content"><!-- placeholder node --></span>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u382_content"><!-- placeholder node --></span>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u393_content"><!-- placeholder node --></span>
-     </div>
-     <div class="clearfix colelem" id="pu410-9"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u410-9_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u413-7_content"><!-- placeholder node --></span>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1250"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/file1.png?crc=4233802785" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1250_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1268"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/report.png?crc=4161598450" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1268_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1286"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/thumb-up.png?crc=181997736" alt="" data-image-width="94" data-image-height="94" data-orig-id="u1286_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-     </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u419-13_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u434-4_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u437-9_content"><!-- placeholder node --></span>
-     <span class="size_fluid_width colelem placeholder" data-placeholder-for="u447_content"><!-- placeholder node --></span>
-     <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u719.php" data-orig-id="widgetu719"><!-- none box -->
-      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu728"><!-- none box -->
-       <label class="fld-label grpelem temp_no_id" for="widgetu728_input" data-orig-id="u730"><!-- state-based BG images --></label>
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u731-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U728" tabindex="5" data-orig-id="widgetu728_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu728_input" data-orig-id="widgetu728_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu728_prompt_0_content"><!-- placeholder node --></span></label></span>
-      </div>
-      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu720"><!-- none box -->
-       <label class="fld-label grpelem temp_no_id" for="widgetu720_input" data-orig-id="u722"><!-- state-based BG images --></label>
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u723-4"><!-- content --><input class="wrapped-input temp_no_id" type="email" spellcheck="false" name="Email" tabindex="6" data-orig-id="widgetu720_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu720_input" data-orig-id="widgetu720_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu720_prompt_0_content"><!-- placeholder node --></span></label></span>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u735-4"><!-- content -->
-       <span class="placeholder" data-placeholder-for="u735-4_0_content"><!-- placeholder node --></span>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u733-4"><!-- content -->
-       <span class="placeholder" data-placeholder-for="u733-4_0_content"><!-- placeholder node --></span>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u732-4"><!-- content -->
-       <span class="placeholder" data-placeholder-for="u732-4_0_content"><!-- placeholder node --></span>
-      </div>
-      <button class="submit-btn NoWrap grpelem temp_no_id" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="8" data-orig-id="u734"><!-- state-based BG images --></button>
-      <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu724"><!-- none box -->
-       <label class="fld-label grpelem temp_no_id" for="widgetu724_input" data-orig-id="u727"><!-- state-based BG images --></label>
-       <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u725-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U724" tabindex="7" data-orig-id="widgetu724_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu724_input" data-orig-id="widgetu724_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu724_prompt_0_content"><!-- placeholder node --></span></label></span>
+      <div class="fld-grp clearfix grpelem" id="widgetu4970" data-required="true"><!-- none box -->
+       <label class="fld-label grpelem" id="u4972" for="widgetu4970_input"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4971-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu4970_input" name="custom_U4970" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu4970_prompt" for="widgetu4970_input"><span class="actAsPara shared_content" data-content-guid="widgetu4970_prompt_0_content">Введите номер телефона</span></label></span>
       </div>
      </form>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="zakaz_content"><!-- placeholder node --></span>
-     <img class="colelem temp_no_id temp_no_img_src" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27. тел. 8-987-22-686-44" data-orig-src="images/u1020-82.png?crc=272573079" data-image-width="411" data-orig-id="u1020-8" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     <div class="verticalspacer" data-offset-top="5052" data-content-above-spacer="5081" data-content-below-spacer="186"></div>
-     <div class="rounded-corners clearfix colelem temp_no_id" data-orig-id="u978"><!-- group -->
-      <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u984"><!-- group -->
-       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u990"><!-- group -->
-        <span class="rounded-corners grpelem placeholder" data-placeholder-for="u1002_content"><!-- placeholder node --></span>
-       </div>
+     <div class="clearfix colelem" id="pu5261"><!-- group -->
+      <div class="browser_width grpelem shared_content" id="u5261-bw" data-content-guid="u5261-bw_content">
+       <div id="u5261"><!-- simple frame --></div>
       </div>
+      <img class="grpelem temp_no_img_src" id="u5262-6" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27" width="554" height="64" data-orig-src="images/u5262-6.png?crc=457361588" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem" id="u5286-4" href="phoneto:+79872268644"><!-- rasterized frame --><img class="temp_no_img_src" id="u5286-4_img" alt="тел. 8-987-22-686-44" width="390" height="29" data-orig-src="images/u5286-4.png?crc=4018541324" src="images/blank.gif?crc=4208392903"/></a>
      </div>
-     <span class="rounded-corners colelem placeholder" data-placeholder-for="u1014_content"><!-- placeholder node --></span>
-     <div class="rounded-corners clearfix colelem temp_no_id" data-orig-id="u1184"><!-- group -->
-      <span class="rounded-corners grpelem placeholder" data-placeholder-for="u1308_content"><!-- placeholder node --></span>
+     <div class="verticalspacer" data-offset-top="6382" data-content-above-spacer="6382" data-content-below-spacer="62"></div>
+     <div class="size_fixed colelem" id="u122"><!-- custom html -->
+      <pageItemHTML>
+  <span id="tm_animate">АНИМЭЙТ v.3.5</span>
+</pageItemHTML>
      </div>
     </div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/u730-ferr2.png?crc=222059802" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u722-ferr2.png?crc=355399383" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u734-r2.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u734-m2.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u734-fs2.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u727-ferr2.png?crc=189128107" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/right-arrow-circular-button-u501-r.png?crc=3850102578" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4967-ferr.png?crc=490225854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-r.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-m.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-fs.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4956-ferr.png?crc=504254424" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4972-ferr.png?crc=58656904" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
+  <div class="breakpoint" id="bp_960" data-min-width="721" data-max-width="960"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clearfix colelem" id="pu789"><!-- group -->
+      <span class="grpelem placeholder" data-placeholder-for="u789_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u807-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="colelem placeholder" data-placeholder-for="u837_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u905_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u2216_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu2446"><!-- group -->
+      <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2446"><!-- group -->
+       <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2569"><!-- group -->
+        <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2681"><!-- group -->
+         <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2733"><!-- group -->
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2776_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2258_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu2550"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" title="animate glideLeft" data-orig-id="u2550"><!-- group -->
+       <span class="grpelem placeholder" data-placeholder-for="u2680_content"><!-- placeholder node --></span>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2570_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u2734_content"><!-- placeholder node --></span>
+     </div>
+     <div class="SlideShowWidget clearfix colelem temp_no_id" data-orig-id="slideshowu3242"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u3243popup">
+       <div class="SlideShowContentPanel clearfix temp_no_id" data-orig-id="u3243"><!-- stack box -->
+        <div class="SSSlide clip_frame clearfix grpelem temp_no_id" data-orig-id="u3248"><!-- image -->
+         <img class="ImageInclude position_content temp_no_id" data-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016260x360.jpg?crc=4049373171" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3248_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3525"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b0480x346.jpg?crc=381954157" src="images/blank.gif?crc=4208392903" alt="" data-width="480" data-height="346" data-orig-id="u3525_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3606"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016260x360.jpg?crc=3915137027" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3606_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3687"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017262x360.jpg?crc=3865750007" src="images/blank.gif?crc=4208392903" alt="" data-width="262" data-height="360" data-orig-id="u3687_img"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3255popup">
+       <div class="SSSlideLinks clearfix temp_no_id" data-orig-id="u3255"><!-- horizontal-rows box -->
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3258"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016-crop-u32582.jpg?crc=3973556491" alt="" width="60" height="45" data-orig-id="u3258_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame clearfix grpelem temp_no_id" data-orig-id="u3548"><!-- image -->
+         <img class="position_content temp_no_id temp_no_img_src" data-orig-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b063x45.jpg?crc=311858608" alt="" width="62" height="45" data-orig-id="u3548_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3629"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016-crop-u36292.jpg?crc=4167577999" alt="" width="60" height="45" data-orig-id="u3629_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3710"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017-crop-u37102.jpg?crc=4120220640" alt="" width="60" height="45" data-orig-id="u3710_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3250popup">
+       <div class="SlideShowCaptionPanel clearfix temp_no_id" data-orig-id="u3250"><!-- stack box -->
+        <div class="SSSlideCaption clearfix grpelem temp_no_id" data-orig-id="u3252-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3252-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3571-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3571-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3652-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3652-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3733-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3733-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3263-4popup">
+       <div class="SSPreviousButton clearfix temp_no_id" data-orig-id="u3263-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3263-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3264-4popup">
+       <div class="SSNextButton clearfix temp_no_id" data-orig-id="u3264-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3264-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3254-4popup">
+       <div class="SlideShowLabel SSSlideCount clearfix temp_no_id" data-orig-id="u3254-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3254-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3265popup">
+       <div class="SSCloseButton popup_element clearfix temp_no_id" data-orig-id="u3265"><!-- group -->
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u3266-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4221-13"><!-- group -->
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4221-13_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4646-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4664-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4888-11_content"><!-- placeholder node --></span>
+     </div>
+     <a class="nonblock nontext colelem temp_no_id" href="phoneto:+79872268644" data-orig-id="u5286-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="тел. 8-987-22-686-44" width="390" height="29" data-orig-src="images/u5286-42.png?crc=4018541324" data-orig-id="u5286-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u4975-5_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u4976-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u4951-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu4952"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="zakaz_content"><!-- placeholder node --></span>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u5261-bw_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27" width="307" height="87" data-orig-src="images/u5262-62.png?crc=3787167932" data-orig-id="u5262-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     </div>
+     <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u4953.php" data-orig-id="widgetu4953"><!-- none box -->
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4965"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4965_input" data-orig-id="u4967"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4968-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U4965" tabindex="5" data-orig-id="widgetu4965_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4965_input" data-orig-id="widgetu4965_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4965_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4958-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4958-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4964-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4964-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4959-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4959-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <button class="submit-btn NoWrap grpelem temp_no_id" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="8" data-orig-id="u4969"><!-- state-based BG images --></button>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu4954"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4954_input" data-orig-id="u4956"><!-- state-based BG images --></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4957-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U4954" tabindex="7" data-orig-id="widgetu4954_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4954_input" data-orig-id="widgetu4954_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4954_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4970"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4970_input" data-orig-id="u4972"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4971-4"><!-- content --><input class="wrapped-input temp_no_id" type="tel" spellcheck="false" name="custom_U4970" tabindex="6" data-orig-id="widgetu4970_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4970_input" data-orig-id="widgetu4970_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4970_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+     </form>
+     <div class="verticalspacer" data-offset-top="7386" data-content-above-spacer="7385" data-content-below-spacer="615"></div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4967-ferr2.png?crc=222059802" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-r2.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-m2.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-fs2.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4956-ferr2.png?crc=189128107" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4972-ferr2.png?crc=4205347757" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_720" data-min-width="641" data-max-width="720"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u807-4_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u837_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u905_content"><!-- placeholder node --></span>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u789-bw_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u2216_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2446"><!-- group -->
+      <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2446"><!-- group -->
+       <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2569"><!-- group -->
+        <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2681"><!-- group -->
+         <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2733"><!-- group -->
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2776_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2258_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2550"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" title="animate glideLeft" data-orig-id="u2550"><!-- group -->
+       <span class="grpelem placeholder" data-placeholder-for="u2680_content"><!-- placeholder node --></span>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2570_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u2734_content"><!-- placeholder node --></span>
+     </div>
+     <div class="SlideShowWidget clearfix colelem temp_no_id" data-orig-id="slideshowu3242"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u3243popup">
+       <div class="SlideShowContentPanel clearfix temp_no_id" data-orig-id="u3243"><!-- stack box -->
+        <div class="SSSlide clip_frame clearfix grpelem temp_no_id" data-orig-id="u3248"><!-- image -->
+         <img class="ImageInclude position_content temp_no_id" data-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016260x360.jpg?crc=4049373171" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3248_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3525"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b0480x346.jpg?crc=381954157" src="images/blank.gif?crc=4208392903" alt="" data-width="480" data-height="346" data-orig-id="u3525_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3606"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016260x360.jpg?crc=3915137027" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3606_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3687"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017262x360.jpg?crc=3865750007" src="images/blank.gif?crc=4208392903" alt="" data-width="262" data-height="360" data-orig-id="u3687_img"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3255popup">
+       <div class="SSSlideLinks clearfix temp_no_id" data-orig-id="u3255"><!-- horizontal-rows box -->
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3258"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016-crop-u32583.jpg?crc=3973556491" alt="" width="60" height="45" data-orig-id="u3258_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame clearfix grpelem temp_no_id" data-orig-id="u3548"><!-- image -->
+         <img class="position_content temp_no_id temp_no_img_src" data-orig-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b063x45.jpg?crc=311858608" alt="" width="62" height="45" data-orig-id="u3548_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3629"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016-crop-u36293.jpg?crc=4167577999" alt="" width="60" height="45" data-orig-id="u3629_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3710"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017-crop-u37103.jpg?crc=4120220640" alt="" width="60" height="45" data-orig-id="u3710_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3250popup">
+       <div class="SlideShowCaptionPanel clearfix temp_no_id" data-orig-id="u3250"><!-- stack box -->
+        <div class="SSSlideCaption clearfix grpelem temp_no_id" data-orig-id="u3252-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3252-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3571-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3571-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3652-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3652-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3733-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3733-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3263-4popup">
+       <div class="SSPreviousButton clearfix temp_no_id" data-orig-id="u3263-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3263-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3264-4popup">
+       <div class="SSNextButton clearfix temp_no_id" data-orig-id="u3264-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3264-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3254-4popup">
+       <div class="SlideShowLabel SSSlideCount clearfix temp_no_id" data-orig-id="u3254-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3254-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3265popup">
+       <div class="SSCloseButton popup_element clearfix temp_no_id" data-orig-id="u3265"><!-- group -->
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u3266-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4221-13"><!-- group -->
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4221-13_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4646-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4664-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4888-11_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u4951-4_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4975-5_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4976-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="zakaz_content"><!-- placeholder node --></span>
+     <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u4953.php" data-orig-id="widgetu4953"><!-- none box -->
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4965"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4965_input" data-orig-id="u4967"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4968-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U4965" tabindex="9" data-orig-id="widgetu4965_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4965_input" data-orig-id="widgetu4965_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4965_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4958-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4958-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4964-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4964-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4959-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4959-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <button class="submit-btn NoWrap grpelem temp_no_id" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="12" data-orig-id="u4969"><!-- state-based BG images --></button>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu4954"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4954_input" data-orig-id="u4956"><!-- state-based BG images --></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4957-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U4954" tabindex="11" data-orig-id="widgetu4954_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4954_input" data-orig-id="widgetu4954_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4954_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4970"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4970_input" data-orig-id="u4972"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4971-4"><!-- content --><input class="wrapped-input temp_no_id" type="tel" spellcheck="false" name="custom_U4970" tabindex="10" data-orig-id="widgetu4970_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4970_input" data-orig-id="widgetu4970_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4970_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+     </form>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu5261"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u5261-bw_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27" width="395" height="64" data-orig-src="images/u5262-63.png?crc=373800439" data-orig-id="u5262-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem temp_no_id" href="phoneto:+79872268644" data-orig-id="u5286-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="тел. 8-987-22-686-44" width="390" height="29" data-orig-src="images/u5286-43.png?crc=4018541324" data-orig-id="u5286-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <div class="verticalspacer" data-offset-top="6382" data-content-above-spacer="6382" data-content-below-spacer="1618"></div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4967-ferr3.png?crc=490225854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-r3.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-m3.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-fs3.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4956-ferr3.png?crc=504254424" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4972-ferr3.png?crc=58656904" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_640" data-min-width="481" data-max-width="640"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu789"><!-- group -->
+      <span class="grpelem placeholder" data-placeholder-for="u789_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u807-4_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u837_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u905_content"><!-- placeholder node --></span>
+     </div>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u2216_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2446"><!-- group -->
+      <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2446"><!-- group -->
+       <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2569"><!-- group -->
+        <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2681"><!-- group -->
+         <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2733"><!-- group -->
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2776_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2258_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2550"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" title="animate glideLeft" data-orig-id="u2550"><!-- group -->
+       <span class="grpelem placeholder" data-placeholder-for="u2680_content"><!-- placeholder node --></span>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2570_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u2734_content"><!-- placeholder node --></span>
+     </div>
+     <div class="SlideShowWidget clearfix colelem temp_no_id" data-orig-id="slideshowu3242"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u3243popup">
+       <div class="SlideShowContentPanel clearfix temp_no_id" data-orig-id="u3243"><!-- stack box -->
+        <div class="SSSlide clip_frame clearfix grpelem temp_no_id" data-orig-id="u3248"><!-- image -->
+         <img class="ImageInclude position_content temp_no_id" data-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016260x360.jpg?crc=4049373171" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3248_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3525"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b0480x346.jpg?crc=381954157" src="images/blank.gif?crc=4208392903" alt="" data-width="480" data-height="346" data-orig-id="u3525_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3606"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016260x360.jpg?crc=3915137027" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3606_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3687"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017262x360.jpg?crc=3865750007" src="images/blank.gif?crc=4208392903" alt="" data-width="262" data-height="360" data-orig-id="u3687_img"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3255popup">
+       <div class="SSSlideLinks clearfix temp_no_id" data-orig-id="u3255"><!-- horizontal-rows box -->
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3258"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016-crop-u32584.jpg?crc=3973556491" alt="" width="60" height="45" data-orig-id="u3258_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame clearfix grpelem temp_no_id" data-orig-id="u3548"><!-- image -->
+         <img class="position_content temp_no_id temp_no_img_src" data-orig-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b063x45.jpg?crc=311858608" alt="" width="62" height="45" data-orig-id="u3548_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3629"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016-crop-u36294.jpg?crc=4167577999" alt="" width="60" height="45" data-orig-id="u3629_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3710"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017-crop-u37104.jpg?crc=4120220640" alt="" width="60" height="45" data-orig-id="u3710_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3250popup">
+       <div class="SlideShowCaptionPanel clearfix temp_no_id" data-orig-id="u3250"><!-- stack box -->
+        <div class="SSSlideCaption clearfix grpelem temp_no_id" data-orig-id="u3252-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3252-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3571-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3571-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3652-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3652-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3733-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3733-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3263-4popup">
+       <div class="SSPreviousButton clearfix temp_no_id" data-orig-id="u3263-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3263-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3264-4popup">
+       <div class="SSNextButton clearfix temp_no_id" data-orig-id="u3264-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3264-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3254-4popup">
+       <div class="SlideShowLabel SSSlideCount clearfix temp_no_id" data-orig-id="u3254-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3254-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3265popup">
+       <div class="SSCloseButton popup_element clearfix temp_no_id" data-orig-id="u3265"><!-- group -->
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u3266-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <a class="nonblock nontext colelem temp_no_id" href="phoneto:+79872268644" data-orig-id="u5286-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="тел. 8-987-22-686-44" width="390" height="29" data-orig-src="images/u5286-44.png?crc=4018541324" data-orig-id="u5286-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4221-13"><!-- group -->
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4221-13_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4646-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4664-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4888-11_content"><!-- placeholder node --></span>
+     </div>
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u4975-5_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u4976-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u4951-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4952"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="zakaz_content"><!-- placeholder node --></span>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u5261-bw_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27" width="189" height="197" data-orig-src="images/u5262-64.png?crc=3763639133" data-orig-id="u5262-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     </div>
+     <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u4953.php" data-orig-id="widgetu4953"><!-- none box -->
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4965"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4965_input" data-orig-id="u4967"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4968-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U4965" tabindex="13" data-orig-id="widgetu4965_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4965_input" data-orig-id="widgetu4965_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4965_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4958-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4958-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4964-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4964-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4959-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4959-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <button class="submit-btn NoWrap grpelem temp_no_id" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="16" data-orig-id="u4969"><!-- state-based BG images --></button>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu4954"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4954_input" data-orig-id="u4956"><!-- state-based BG images --></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4957-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U4954" tabindex="15" data-orig-id="widgetu4954_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4954_input" data-orig-id="widgetu4954_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4954_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4970"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4970_input" data-orig-id="u4972"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4971-4"><!-- content --><input class="wrapped-input temp_no_id" type="tel" spellcheck="false" name="custom_U4970" tabindex="14" data-orig-id="widgetu4970_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4970_input" data-orig-id="widgetu4970_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4970_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+     </form>
+     <div class="verticalspacer" data-offset-top="8870" data-content-above-spacer="8870" data-content-below-spacer="62"></div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4967-ferr4.png?crc=222059802" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-r4.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-m4.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-fs4.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4956-ferr4.png?crc=189128107" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4972-ferr4.png?crc=4205347757" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_480" data-min-width="321" data-max-width="480"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u807-4_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u837_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u905_content"><!-- placeholder node --></span>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u789-bw_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u2216_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2446"><!-- group -->
+      <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2446"><!-- group -->
+       <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2569"><!-- group -->
+        <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2681"><!-- group -->
+         <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2733"><!-- group -->
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2776_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2258_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2550"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" title="animate glideLeft" data-orig-id="u2550"><!-- group -->
+       <span class="grpelem placeholder" data-placeholder-for="u2680_content"><!-- placeholder node --></span>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2570_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u2734_content"><!-- placeholder node --></span>
+     </div>
+     <div class="SlideShowWidget clearfix colelem temp_no_id" data-orig-id="slideshowu3242"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u3243popup">
+       <div class="SlideShowContentPanel clearfix temp_no_id" data-orig-id="u3243"><!-- stack box -->
+        <div class="SSSlide clip_frame clearfix grpelem temp_no_id" data-orig-id="u3248"><!-- image -->
+         <img class="ImageInclude position_content temp_no_id" data-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016260x360.jpg?crc=4049373171" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3248_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3525"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b0480x346.jpg?crc=381954157" src="images/blank.gif?crc=4208392903" alt="" data-width="480" data-height="346" data-orig-id="u3525_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3606"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016260x360.jpg?crc=3915137027" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3606_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3687"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017262x360.jpg?crc=3865750007" src="images/blank.gif?crc=4208392903" alt="" data-width="262" data-height="360" data-orig-id="u3687_img"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3255popup">
+       <div class="SSSlideLinks clearfix temp_no_id" data-orig-id="u3255"><!-- horizontal-rows box -->
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3258"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016-crop-u32585.jpg?crc=3973556491" alt="" width="60" height="45" data-orig-id="u3258_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame clearfix grpelem temp_no_id" data-orig-id="u3548"><!-- image -->
+         <img class="position_content temp_no_id temp_no_img_src" data-orig-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b063x45.jpg?crc=311858608" alt="" width="62" height="45" data-orig-id="u3548_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3629"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016-crop-u36295.jpg?crc=4167577999" alt="" width="60" height="45" data-orig-id="u3629_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3710"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017-crop-u37105.jpg?crc=4120220640" alt="" width="60" height="45" data-orig-id="u3710_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3250popup">
+       <div class="SlideShowCaptionPanel clearfix temp_no_id" data-orig-id="u3250"><!-- stack box -->
+        <div class="SSSlideCaption clearfix grpelem temp_no_id" data-orig-id="u3252-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3252-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3571-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3571-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3652-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3652-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3733-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3733-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3263-4popup">
+       <div class="SSPreviousButton clearfix temp_no_id" data-orig-id="u3263-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3263-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3264-4popup">
+       <div class="SSNextButton clearfix temp_no_id" data-orig-id="u3264-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3264-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3254-4popup">
+       <div class="SlideShowLabel SSSlideCount clearfix temp_no_id" data-orig-id="u3254-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3254-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3265popup">
+       <div class="SSCloseButton popup_element clearfix temp_no_id" data-orig-id="u3265"><!-- group -->
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u3266-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4221-13"><!-- group -->
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4221-13_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4646-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4664-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4888-11_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u4951-4_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4975-5_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4976-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="zakaz_content"><!-- placeholder node --></span>
+     <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u4953.php" data-orig-id="widgetu4953"><!-- none box -->
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4965"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4965_input" data-orig-id="u4967"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4968-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U4965" tabindex="17" data-orig-id="widgetu4965_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4965_input" data-orig-id="widgetu4965_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4965_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4958-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4958-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4964-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4964-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4959-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4959-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <button class="submit-btn NoWrap grpelem temp_no_id" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="20" data-orig-id="u4969"><!-- state-based BG images --></button>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu4954"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4954_input" data-orig-id="u4956"><!-- state-based BG images --></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4957-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U4954" tabindex="19" data-orig-id="widgetu4954_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4954_input" data-orig-id="widgetu4954_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4954_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4970"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4970_input" data-orig-id="u4972"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4971-4"><!-- content --><input class="wrapped-input temp_no_id" type="tel" spellcheck="false" name="custom_U4970" tabindex="18" data-orig-id="widgetu4970_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4970_input" data-orig-id="widgetu4970_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4970_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+     </form>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu5261"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u5261-bw_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27" width="211" height="64" data-orig-src="images/u5262-65.png?crc=3776947175" data-orig-id="u5262-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem temp_no_id" href="phoneto:+79872268644" data-orig-id="u5286-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="тел. 8-987-22-686-44" width="390" height="29" data-orig-src="images/u5286-45.png?crc=4018541324" data-orig-id="u5286-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <div class="verticalspacer shared_content" data-offset-top="6421" data-content-above-spacer="6420" data-content-below-spacer="1580" data-content-guid="page_position_content_12_content"></div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4967-ferr5.png?crc=490225854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-r5.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-m5.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-fs5.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4956-ferr5.png?crc=504254424" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4972-ferr5.png?crc=58656904" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_320" data-max-width="320"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u807-4_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u837_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u905_content"><!-- placeholder node --></span>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u789-bw_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u2216_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2446"><!-- group -->
+      <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2446"><!-- group -->
+       <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2569"><!-- group -->
+        <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideRight d1" data-orig-id="u2681"><!-- group -->
+         <div class="museBGSize clearfix grpelem temp_no_id" title="animate glideLeft d1" data-orig-id="u2733"><!-- group -->
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2776_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2258_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2550"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" title="animate glideLeft" data-orig-id="u2550"><!-- group -->
+       <span class="grpelem placeholder" data-placeholder-for="u2680_content"><!-- placeholder node --></span>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u2570_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u2734_content"><!-- placeholder node --></span>
+     </div>
+     <div class="SlideShowWidget clearfix colelem temp_no_id" data-orig-id="slideshowu3242"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u3243popup">
+       <div class="SlideShowContentPanel clearfix temp_no_id" data-orig-id="u3243"><!-- stack box -->
+        <div class="SSSlide clip_frame clearfix grpelem temp_no_id" data-orig-id="u3248"><!-- image -->
+         <img class="ImageInclude position_content temp_no_id" data-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016260x360.jpg?crc=4049373171" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3248_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3525"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b0480x346.jpg?crc=381954157" src="images/blank.gif?crc=4208392903" alt="" data-width="480" data-height="346" data-orig-id="u3525_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3606"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016260x360.jpg?crc=3915137027" src="images/blank.gif?crc=4208392903" alt="" data-width="260" data-height="360" data-orig-id="u3606_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-orig-id="u3687"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017262x360.jpg?crc=3865750007" src="images/blank.gif?crc=4208392903" alt="" data-width="262" data-height="360" data-orig-id="u3687_img"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3255popup">
+       <div class="SSSlideLinks clearfix temp_no_id" data-orig-id="u3255"><!-- horizontal-rows box -->
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3258"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d0%b2%d1%8b%d0%bf%d0%b8%d1%81%d0%ba%d0%b0%20%d0%b8%d0%b7%20%d1%80%d0%b5%d0%b5%d1%81%d1%82%d1%80%d0%b0%202016-crop-u32586.jpg?crc=3973556491" alt="" width="60" height="45" data-orig-id="u3258_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame clearfix grpelem temp_no_id" data-orig-id="u3548"><!-- image -->
+         <img class="position_content temp_no_id temp_no_img_src" data-orig-src="images/%d0%b4%d0%b8%d0%bf%d0%bb%d0%be%d0%bc%20%d0%be%d1%86%d0%b5%d0%bd%d1%89%d0%b8%d0%ba%d0%b063x45.jpg?crc=311858608" alt="" width="62" height="45" data-orig-id="u3548_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3629"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b5%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be%202016-crop-u36296.jpg?crc=4167577999" alt="" width="60" height="45" data-orig-id="u3629_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="SSSlideLink clip_frame grpelem temp_no_id" data-orig-id="u3710"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%be%d0%b2%d0%ba%d0%b0%202017-crop-u37106.jpg?crc=4120220640" alt="" width="60" height="45" data-orig-id="u3710_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3250popup">
+       <div class="SlideShowCaptionPanel clearfix temp_no_id" data-orig-id="u3250"><!-- stack box -->
+        <div class="SSSlideCaption clearfix grpelem temp_no_id" data-orig-id="u3252-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3252-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3571-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3571-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3652-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3652-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-orig-id="u3733-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u3733-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3263-4popup">
+       <div class="SSPreviousButton clearfix temp_no_id" data-orig-id="u3263-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3263-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3264-4popup">
+       <div class="SSNextButton clearfix temp_no_id" data-orig-id="u3264-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3264-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3254-4popup">
+       <div class="SlideShowLabel SSSlideCount clearfix temp_no_id" data-orig-id="u3254-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3254-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u3265popup">
+       <div class="SSCloseButton popup_element clearfix temp_no_id" data-orig-id="u3265"><!-- group -->
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u3266-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4221-13"><!-- group -->
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4221-13_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4646-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4664-11_content"><!-- placeholder node --></span>
+      <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4888-11_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u4951-4_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4975-5_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4976-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="zakaz_content"><!-- placeholder node --></span>
+     <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u4953.php" data-orig-id="widgetu4953"><!-- none box -->
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4965"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4965_input" data-orig-id="u4967"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4968-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U4965" tabindex="21" data-orig-id="widgetu4965_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4965_input" data-orig-id="widgetu4965_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4965_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4958-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4958-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4964-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4964-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4959-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u4959-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <button class="submit-btn NoWrap grpelem temp_no_id" alt="Отправить" src="images/blank.gif?crc=4208392903" type="submit" value="" tabindex="24" data-orig-id="u4969"><!-- state-based BG images --></button>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu4954"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4954_input" data-orig-id="u4956"><!-- state-based BG images --></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4957-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U4954" tabindex="23" data-orig-id="widgetu4954_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4954_input" data-orig-id="widgetu4954_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4954_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu4970"><!-- none box -->
+       <label class="fld-label grpelem temp_no_id" for="widgetu4970_input" data-orig-id="u4972"><!-- state-based BG images --></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u4971-4"><!-- content --><input class="wrapped-input temp_no_id" type="tel" spellcheck="false" name="custom_U4970" tabindex="22" data-orig-id="widgetu4970_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu4970_input" data-orig-id="widgetu4970_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu4970_prompt_0_content"><!-- placeholder node --></span></label></span>
+      </div>
+     </form>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu5261"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u5261-bw_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="ИП Бакиров Ренат Талгятович юридический адрес: г. Казань, ул. Рахимова, 21 - 27" width="211" height="145" data-orig-src="images/u5262-66.png?crc=3776947175" data-orig-id="u5262-6" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem temp_no_id" href="phoneto:+79872268644" data-orig-id="u5286-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="тел. 8-987-22-686-44" width="390" height="29" data-orig-src="images/u5286-46.png?crc=4018541324" data-orig-id="u5286-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <span class="verticalspacer placeholder" data-placeholder-for="page_position_content_12_content"><!-- placeholder node --></span>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4967-ferr6.png?crc=490225854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-r6.png?crc=4213725022" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-m6.png?crc=4287200210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4969-fs6.png?crc=335642971" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4956-ferr6.png?crc=504254424" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4972-ferr6.png?crc=58656904" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","webpro","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.scrolleffects","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.initWidget('#widgetu719', ['#bp_infinity', '#bp_768'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu719 */
+Muse.Utils.initWidget('#slideshowu3242', ['#bp_infinity', '#bp_960', '#bp_720', '#bp_640', '#bp_480', '#bp_320'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu3242 */
+Muse.Utils.initWidget('#widgetu4953', ['#bp_infinity', '#bp_960', '#bp_720', '#bp_640', '#bp_480', '#bp_320'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu4953 */
+$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#u327').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0],"in":[0,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
@@ -424,5 +1138,20 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+   
+
+<script type="text/javascript">(function(){var t=[].indexOf||function(t){for(var e=0,n=this.length;e<n;e++){if(e in this&&this[e]===t)return e}return-1},e=[].slice;(function(t,e){if(typeof define==="function"&&define.amd){return define("waypoints",["jquery"],function(n){return e(n,t)})}else{return e(t.jQuery,t)}})(window,function(n,r){var i,o,l,s,f,u,c,a,h,d,p,y,v,w,g,m;i=n(r);a=t.call(r,"ontouchstart")>=0;s={horizontal:{},vertical:{}};f=1;c={};u="waypoints-context-id";p="resize.waypoints";y="scroll.waypoints";v=1;w="waypoints-waypoint-ids";g="waypoint";m="waypoints";o=function(){function t(t){var e=this;this.$element=t;this.element=t[0];this.didResize=false;this.didScroll=false;this.id="context"+f++;this.oldScroll={x:t.scrollLeft(),y:t.scrollTop()};this.waypoints={horizontal:{},vertical:{}};this.element[u]=this.id;c[this.id]=this;t.bind(y,function(){var t;if(!(e.didScroll||a)){e.didScroll=true;t=function(){e.doScroll();return e.didScroll=false};return r.setTimeout(t,n[m].settings.scrollThrottle)}});t.bind(p,function(){var t;if(!e.didResize){e.didResize=true;t=function(){n[m]("refresh");return e.didResize=false};return r.setTimeout(t,n[m].settings.resizeThrottle)}})}t.prototype.doScroll=function(){var t,e=this;t={horizontal:{newScroll:this.$element.scrollLeft(),oldScroll:this.oldScroll.x,forward:"right",backward:"left"},vertical:{newScroll:this.$element.scrollTop(),oldScroll:this.oldScroll.y,forward:"down",backward:"up"}};if(a&&(!t.vertical.oldScroll||!t.vertical.newScroll)){n[m]("refresh")}n.each(t,function(t,r){var i,o,l;l=[];o=r.newScroll>r.oldScroll;i=o?r.forward:r.backward;n.each(e.waypoints[t],function(t,e){var n,i;if(r.oldScroll<(n=e.offset)&&n<=r.newScroll){return l.push(e)}else if(r.newScroll<(i=e.offset)&&i<=r.oldScroll){return l.push(e)}});l.sort(function(t,e){return t.offset-e.offset});if(!o){l.reverse()}return n.each(l,function(t,e){if(e.options.continuous||t===l.length-1){return e.trigger([i])}})});return this.oldScroll={x:t.horizontal.newScroll,y:t.vertical.newScroll}};t.prototype.refresh=function(){var t,e,r,i=this;r=n.isWindow(this.element);e=this.$element.offset();this.doScroll();t={horizontal:{contextOffset:r?0:e.left,contextScroll:r?0:this.oldScroll.x,contextDimension:this.$element.width(),oldScroll:this.oldScroll.x,forward:"right",backward:"left",offsetProp:"left"},vertical:{contextOffset:r?0:e.top,contextScroll:r?0:this.oldScroll.y,contextDimension:r?n[m]("viewportHeight"):this.$element.height(),oldScroll:this.oldScroll.y,forward:"down",backward:"up",offsetProp:"top"}};return n.each(t,function(t,e){return n.each(i.waypoints[t],function(t,r){var i,o,l,s,f;i=r.options.offset;l=r.offset;o=n.isWindow(r.element)?0:r.$element.offset()[e.offsetProp];if(n.isFunction(i)){i=i.apply(r.element)}else if(typeof i==="string"){i=parseFloat(i);if(r.options.offset.indexOf("%")>-1){i=Math.ceil(e.contextDimension*i/100)}}r.offset=o-e.contextOffset+e.contextScroll-i;if(r.options.onlyOnScroll&&l!=null||!r.enabled){return}if(l!==null&&l<(s=e.oldScroll)&&s<=r.offset){return r.trigger([e.backward])}else if(l!==null&&l>(f=e.oldScroll)&&f>=r.offset){return r.trigger([e.forward])}else if(l===null&&e.oldScroll>=r.offset){return r.trigger([e.forward])}})})};t.prototype.checkEmpty=function(){if(n.isEmptyObject(this.waypoints.horizontal)&&n.isEmptyObject(this.waypoints.vertical)){this.$element.unbind([p,y].join(" "));return delete c[this.id]}};return t}();l=function(){function t(t,e,r){var i,o;if(r.offset==="bottom-in-view"){r.offset=function(){var t;t=n[m]("viewportHeight");if(!n.isWindow(e.element)){t=e.$element.height()}return t-n(this).outerHeight()}}this.$element=t;this.element=t[0];this.axis=r.horizontal?"horizontal":"vertical";this.callback=r.handler;this.context=e;this.enabled=r.enabled;this.id="waypoints"+v++;this.offset=null;this.options=r;e.waypoints[this.axis][this.id]=this;s[this.axis][this.id]=this;i=(o=this.element[w])!=null?o:[];i.push(this.id);this.element[w]=i}t.prototype.trigger=function(t){if(!this.enabled){return}if(this.callback!=null){this.callback.apply(this.element,t)}if(this.options.triggerOnce){return this.destroy()}};t.prototype.disable=function(){return this.enabled=false};t.prototype.enable=function(){this.context.refresh();return this.enabled=true};t.prototype.destroy=function(){delete s[this.axis][this.id];delete this.context.waypoints[this.axis][this.id];return this.context.checkEmpty()};t.getWaypointsByElement=function(t){var e,r;r=t[w];if(!r){return[]}e=n.extend({},s.horizontal,s.vertical);return n.map(r,function(t){return e[t]})};return t}();d={init:function(t,e){var r;e=n.extend({},n.fn[g].defaults,e);if((r=e.handler)==null){e.handler=t}this.each(function(){var t,r,i,s;t=n(this);i=(s=e.context)!=null?s:n.fn[g].defaults.context;if(!n.isWindow(i)){i=t.closest(i)}i=n(i);r=c[i[0][u]];if(!r){r=new o(i)}return new l(t,r,e)});n[m]("refresh");return this},disable:function(){return d._invoke.call(this,"disable")},enable:function(){return d._invoke.call(this,"enable")},destroy:function(){return d._invoke.call(this,"destroy")},prev:function(t,e){return d._traverse.call(this,t,e,function(t,e,n){if(e>0){return t.push(n[e-1])}})},next:function(t,e){return d._traverse.call(this,t,e,function(t,e,n){if(e<n.length-1){return t.push(n[e+1])}})},_traverse:function(t,e,i){var o,l;if(t==null){t="vertical"}if(e==null){e=r}l=h.aggregate(e);o=[];this.each(function(){var e;e=n.inArray(this,l[t]);return i(o,e,l[t])});return this.pushStack(o)},_invoke:function(t){this.each(function(){var e;e=l.getWaypointsByElement(this);return n.each(e,function(e,n){n[t]();return true})});return this}};n.fn[g]=function(){var t,r;r=arguments[0],t=2<=arguments.length?e.call(arguments,1):[];if(d[r]){return d[r].apply(this,t)}else if(n.isFunction(r)){return d.init.apply(this,arguments)}else if(n.isPlainObject(r)){return d.init.apply(this,[null,r])}else if(!r){return n.error("jQuery Waypoints needs a callback function or handler option.")}else{return n.error("The "+r+" method does not exist in jQuery Waypoints.")}};n.fn[g].defaults={context:r,continuous:true,enabled:true,horizontal:false,offset:0,triggerOnce:false};h={refresh:function(){return n.each(c,function(t,e){return e.refresh()})},viewportHeight:function(){var t;return(t=r.innerHeight)!=null?t:i.height()},aggregate:function(t){var e,r,i;e=s;if(t){e=(i=c[n(t)[0][u]])!=null?i.waypoints:void 0}if(!e){return[]}r={horizontal:[],vertical:[]};n.each(r,function(t,i){n.each(e[t],function(t,e){return i.push(e)});i.sort(function(t,e){return t.offset-e.offset});r[t]=n.map(i,function(t){return t.element});return r[t]=n.unique(r[t])});return r},above:function(t){if(t==null){t=r}return h._filter(t,"vertical",function(t,e){return e.offset<=t.oldScroll.y})},below:function(t){if(t==null){t=r}return h._filter(t,"vertical",function(t,e){return e.offset>t.oldScroll.y})},left:function(t){if(t==null){t=r}return h._filter(t,"horizontal",function(t,e){return e.offset<=t.oldScroll.x})},right:function(t){if(t==null){t=r}return h._filter(t,"horizontal",function(t,e){return e.offset>t.oldScroll.x})},enable:function(){return h._invoke("enable")},disable:function(){return h._invoke("disable")},destroy:function(){return h._invoke("destroy")},extendFn:function(t,e){return d[t]=e},_invoke:function(t){var e;e=n.extend({},s.vertical,s.horizontal);return n.each(e,function(e,n){n[t]();return true})},_filter:function(t,e,r){var i,o;i=c[n(t)[0][u]];if(!i){return[]}o=[];n.each(i.waypoints[e],function(t,e){if(r(i,e)){return o.push(e)}});o.sort(function(t,e){return t.offset-e.offset});return n.map(o,function(t){return t.element})}};n[m]=function(){var t,n;n=arguments[0],t=2<=arguments.length?e.call(arguments,1):[];if(h[n]){return h[n].apply(null,t)}else{return h.aggregate.call(null,n)}};n[m].settings={resizeThrottle:100,scrollThrottle:30};return i.on("load.waypoints",function(){return n[m]("refresh")})})}).call(this);</script>
+
+<script type="text/javascript">function countUp(a,b,c,d,e,f){for(var g=0,h=["webkit","moz","ms","o"],i=0;i<h.length&&!window.requestAnimationFrame;++i)window.requestAnimationFrame=window[h[i]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[h[i]+"CancelAnimationFrame"]||window[h[i]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(a){var c=(new Date).getTime(),d=Math.max(0,16-(c-g)),e=window.setTimeout(function(){a(c+d)},d);return g=c+d,e}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)}),this.options=f||{useEasing:!0,useGrouping:!0,separator:",",decimal:"."},""==this.options.separator&&(this.options.useGrouping=!1),null==this.options.prefix&&(this.options.prefix=""),null==this.options.suffix&&(this.options.suffix="");var j=this;this.d="string"==typeof a?document.getElementById(a):a,this.startVal=Number(b),this.endVal=Number(c),this.countDown=this.startVal>this.endVal?!0:!1,this.startTime=null,this.timestamp=null,this.remaining=null,this.frameVal=this.startVal,this.rAF=null,this.decimals=Math.max(0,d||0),this.dec=Math.pow(10,this.decimals),this.duration=1e3*e||2e3,this.version=function(){return"1.3.2"},this.printValue=function(a){var b=isNaN(a)?"--":j.formatNumber(a);"INPUT"==j.d.tagName?this.d.value=b:"text"==j.d.tagName?this.d.textContent=b:this.d.innerHTML=b},this.easeOutExpo=function(a,b,c,d){return 1024*c*(-Math.pow(2,-10*a/d)+1)/1023+b},this.count=function(a){null===j.startTime&&(j.startTime=a),j.timestamp=a;var b=a-j.startTime;if(j.remaining=j.duration-b,j.options.useEasing)if(j.countDown){var c=j.easeOutExpo(b,0,j.startVal-j.endVal,j.duration);j.frameVal=j.startVal-c}else j.frameVal=j.easeOutExpo(b,j.startVal,j.endVal-j.startVal,j.duration);else if(j.countDown){var c=(j.startVal-j.endVal)*(b/j.duration);j.frameVal=j.startVal-c}else j.frameVal=j.startVal+(j.endVal-j.startVal)*(b/j.duration);j.frameVal=j.countDown?j.frameVal<j.endVal?j.endVal:j.frameVal:j.frameVal>j.endVal?j.endVal:j.frameVal,j.frameVal=Math.round(j.frameVal*j.dec)/j.dec,j.printValue(j.frameVal),b<j.duration?j.rAF=requestAnimationFrame(j.count):null!=j.callback&&j.callback()},this.start=function(a){return j.callback=a,isNaN(j.endVal)||isNaN(j.startVal)?(console.log("countUp error: startVal or endVal is not a number"),j.printValue()):j.rAF=requestAnimationFrame(j.count),!1},this.stop=function(){cancelAnimationFrame(j.rAF)},this.reset=function(){j.startTime=null,j.startVal=b,cancelAnimationFrame(j.rAF),j.printValue(j.startVal)},this.resume=function(){j.stop(),j.startTime=null,j.duration=j.remaining,j.startVal=j.frameVal,requestAnimationFrame(j.count)},this.formatNumber=function(a){a=a.toFixed(j.decimals),a+="";var b,c,d,e;if(b=a.split("."),c=b[0],d=b.length>1?j.options.decimal+b[1]:"",e=/(\d+)(\d{3})/,j.options.useGrouping)for(;e.test(c);)c=c.replace(e,"$1"+j.options.separator+"$2");return j.options.prefix+c+d+j.options.suffix},j.printValue(j.startVal)}</script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){$("span[title*='animate']").css('display','inline-block');$("[title*='animate']").attr('animation',function(){return $(this).attr("title")}).removeAttr('title');$("[title*='counter']").attr('animation','counter').removeAttr('title');$("[animation*='animate']").waypoint(function(){$(this).toggleClass('hideAnimation');},{offset:function(){return $(window).height()+$(this).height()+400}});$("[animation*='animate']").waypoint(function(){$(this).toggleClass('hideAnimation');},{offset:function(){return -$(this).height()-400}});$("[animation*='animate']").waypoint(function(){$(this).toggleClass($(this).attr('animation')).toggleClass('showAnimation hideAnimation');},{offset:function(){return $(window).height()}});$("[animation*='animate']").waypoint(function(){$(this).toggleClass($(this).attr('animation')).toggleClass('showAnimation hideAnimation');},{offset:function(){return-$(this).height()-40}});$("[animation*='counter']").attr('number',function(){return $(this).html()}).attr('id',function(){return'counter'+$(this).closest('div').attr('id')});var options={ useEasing:true,useGrouping:false };var counters={};$("[animation*='counter']").each(function(){counters[this.id]=$(this).attr('number');});$.each(counters,function(id,value){ var counter=new countUp(id,0,value,0,2,options);$('#'+id).waypoint(function(up){counter.reset();counter.start();},{offset:function(){return $(window).height()}});$('#'+id).waypoint(function(down){counter.reset();counter.start();},{offset:function(){return-$(this).height()}});});});
+
+</script>
+
+
    </body>
 </html>
