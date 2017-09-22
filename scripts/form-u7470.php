@@ -31,7 +31,7 @@ $form = array(
 		'to' => 'prosto-kzn@mail.ru'
 	),
 	'fields' => array(
-		'custom_U4965' => array(
+		'custom_U7481' => array(
 			'order' => 1,
 			'type' => 'string',
 			'label' => 'Имя',
@@ -40,7 +40,7 @@ $form = array(
 				'required' => 'Поле \'Имя\' не может быть пустым.'
 			)
 		),
-		'custom_U4954' => array(
+		'custom_U7477' => array(
 			'order' => 3,
 			'type' => 'string',
 			'label' => 'Сообщение',
@@ -48,7 +48,7 @@ $form = array(
 			'errors' => array(
 			)
 		),
-		'custom_U4970' => array(
+		'custom_U7471' => array(
 			'order' => 2,
 			'type' => 'string',
 			'label' => 'Сотовый телефон',
