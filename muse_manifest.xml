@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1506082603424">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1506085417548">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4274911482" ref="index"/>
-    <file name="nomq_index.css" crc="266092397" ref="index"/>
+    <file name="index.css" crc="106865749" ref="index"/>
+    <file name="nomq_index.css" crc="4095874393" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -38,7 +38,6 @@
     <file name="camera.png" crc="4178449318" ref="index"/>
     <file name="file1.png" crc="159642789" ref="index"/>
     <file name="report-u2733-fr.png" crc="3846547672" ref="index"/>
-    <file name="thumb-up.png" crc="99322035" ref="index"/>
     <file name="выписка из реестра 2016.jpg" crc="530322316" seo="true" ref="index"/>
     <file name="диплом оценщика.jpg" crc="370746811" seo="true" ref="index"/>
     <file name="свидетельство 2016.jpg" crc="4064185916" seo="true" ref="index"/>
@@ -62,7 +61,6 @@
     <file name="camera-u2569-fr.png" crc="3760332900" ref="index"/>
     <file name="file1-u2681-fr.png" crc="487997495" ref="index"/>
     <file name="report-u2733-fr2.png" crc="383931036" ref="index"/>
-    <file name="thumb-up-u2776-fr.png" crc="3948598344" ref="index"/>
     <file name="выписка из реестра 2016-crop-u3248.jpg" crc="53513783" ref="index"/>
     <file name="диплом оценщика480x346.jpg" crc="381954157" seo="true" ref="index"/>
     <file name="свидетельство 2016260x360.jpg" crc="3915137027" seo="true" ref="index"/>
@@ -96,13 +94,13 @@
     <file name="u5286-44.png" crc="4018541324" ref="index"/>
     <file name="u5262-64.png" crc="3763639133" ref="index"/>
     <file name="1482342714_prodazha-nedvizhimosti-u327-fr3.jpg" crc="486457937" ref="index"/>
-    <file name="right-arrow-circular-button-u5015.png" crc="505946414" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r5.png" crc="395366515" ref="index"/>
+    <file name="right-arrow-circular-button-u5015.png" crc="3807998623" ref="index"/>
+    <file name="right-arrow-circular-button-u501-r5.png" crc="520979711" ref="index"/>
     <file name="выписка из реестра 2016-crop-u32585.jpg" crc="3973556491" ref="index"/>
     <file name="свидетельство 2016-crop-u36295.jpg" crc="4167577999" ref="index"/>
     <file name="страховка 2017-crop-u37105.jpg" crc="4120220640" ref="index"/>
-    <file name="u5262-65.png" crc="3923428424" ref="index"/>
-    <file name="u5286-45.png" crc="4018541324" ref="index"/>
+    <file name="u5262-65.png" crc="4186928987" ref="index"/>
+    <file name="u5286-45.png" crc="3859574412" ref="index"/>
     <file name="1482342714_prodazha-nedvizhimosti-u327-fr4.jpg" crc="392694131" ref="index"/>
     <file name="right-arrow-circular-button-u5016.png" crc="4239039966" ref="index"/>
     <file name="right-arrow-circular-button-u501-r6.png" crc="74653594" ref="index"/>
@@ -153,26 +151,25 @@
     <file name="u7473-ferr4.png" crc="4205347757" ref="index"/>
     <file name="u74835.png" crc="30966060" ref="index"/>
     <file name="u7483-ferr5.png" crc="490225854" ref="index"/>
-    <file name="u74855.png" crc="4053954744" ref="index"/>
-    <file name="u7485-r5.png" crc="185016901" ref="index"/>
-    <file name="u7485-m5.png" crc="4287200210" ref="index"/>
-    <file name="u7485-fs5.png" crc="335642971" ref="index"/>
+    <file name="u74855.png" crc="3942434253" ref="index"/>
+    <file name="u7485-r5.png" crc="3842399920" ref="index"/>
+    <file name="u7485-m5.png" crc="469983285" ref="index"/>
+    <file name="u7485-fs5.png" crc="328491223" ref="index"/>
     <file name="u74805.png" crc="454470776" ref="index"/>
     <file name="u7480-ferr5.png" crc="504254424" ref="index"/>
     <file name="u74735.png" crc="4212930132" ref="index"/>
     <file name="u7473-ferr5.png" crc="58656904" ref="index"/>
-    <file name="ocenka-biznesa04.jpg" crc="325140995" ref="index"/>
-    <file name="ocenka-biznesa04-crop-u7239.jpg" crc="3956070685" ref="index"/>
-    <file name="plans-u1230-fr3.png" crc="106775293" ref="index"/>
-    <file name="house-plan-scale-u1246-fr4.png" crc="472266464" ref="index"/>
-    <file name="field-and-windmill-u1264-fr3.png" crc="316603515" ref="index"/>
-    <file name="house-u1282-fr4.png" crc="354539593" ref="index"/>
+    <file name="ocenka-biznesa04.jpg" crc="3893896094" ref="index"/>
+    <file name="ocenka-biznesa04-crop-u7239.jpg" crc="47242709" ref="index"/>
+    <file name="plans-u1230-fr3.png" crc="4292951375" ref="index"/>
+    <file name="house-plan-scale-u1246-fr4.png" crc="4265282862" ref="index"/>
+    <file name="field-and-windmill-u1264-fr3.png" crc="359596323" ref="index"/>
+    <file name="house-u1282-fr4.png" crc="462013982" ref="index"/>
     <file name="file-u2216-fr2.png" crc="207564987" ref="index"/>
     <file name="calendar-u2446-fr2.png" crc="316729991" ref="index"/>
     <file name="camera-u2569-fr2.png" crc="3929029049" ref="index"/>
     <file name="file1-u2681-fr2.png" crc="206155427" ref="index"/>
     <file name="report-u2733-fr4.png" crc="4113646551" ref="index"/>
-    <file name="thumb-up-u2776-fr2.png" crc="422216480" ref="index"/>
     <file name="выписка из реестра 2016180x249.jpg" crc="3759289609" seo="true" ref="index"/>
     <file name="диплом оценщика-crop-u3525.jpg" crc="3866011472" ref="index"/>
     <file name="свидетельство 2016180x249.jpg" crc="124910356" seo="true" ref="index"/>
@@ -187,6 +184,17 @@
     <file name="u7480-ferr6.png" crc="504254424" ref="index"/>
     <file name="u74736.png" crc="4212930132" ref="index"/>
     <file name="u7473-ferr6.png" crc="58656904" ref="index"/>
+    <file name="a256b97c0e15e07bf82f835539a8fae8.gif" crc="4257497329" ref="index"/>
+    <file name="ocenka-biznesa04-crop-u9335.jpg" crc="496694085" ref="index"/>
+    <file name="выписка из реестра 2016-crop-u32483.jpg" crc="4294876264" ref="index"/>
+    <file name="диплом оценщика300x217.jpg" crc="4013122034" seo="true" ref="index"/>
+    <file name="свидетельство 2016192x266.jpg" crc="155109157" seo="true" ref="index"/>
+    <file name="страховка 2017191x263.jpg" crc="14993433" seo="true" ref="index"/>
+    <file name="ocenka-biznesa04-u7239-fr.jpg" crc="343253117" ref="index"/>
+    <file name="plans-u1230-fr4.png" crc="106775293" ref="index"/>
+    <file name="house-plan-scale-u1246-fr5.png" crc="472266464" ref="index"/>
+    <file name="field-and-windmill-u1264-fr4.png" crc="316603515" ref="index"/>
+    <file name="house-u1282-fr5.png" crc="354539593" ref="index"/>
   </folder>
-  <file name="index.html" crc="496708990" seo="true" mt="1506082241865" redirect="true"/>
+  <file name="index.html" crc="526853834" seo="true" mt="1506085346800" redirect="true"/>
 </manifest>
