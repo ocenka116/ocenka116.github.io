@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1507272635563">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1509306042768">
   <folder name="css">
     <file name="site_global.css" crc="225463448"/>
-    <file name="index.css" crc="210293511" ref="index"/>
-    <file name="nomq_index.css" crc="3793246105" ref="index"/>
+    <file name="index.css" crc="439450174" ref="index"/>
+    <file name="nomq_index.css" crc="78311362" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -16,51 +16,14 @@
     <file name="musewpslideshow.js" crc="405464237" ref="index"/>
     <file name="jquery.museoverlay.js" crc="305414130" ref="index"/>
     <file name="touchswipe.js" crc="221459597" ref="index"/>
-    <file name="musewpdisclosure.js" crc="3865010892" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3801019579" ref="index"/>
     <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
     <file name="require.js" crc="4159430777" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3801019579" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="1482342714_prodazha-nedvizhimosti.jpg" crc="123100260" ref="index"/>
-    <file name="right-arrow-circular-button-u501.png" crc="494161940" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r.png" crc="3850102578" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines.png" crc="490895916" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines2.png" crc="472513105" ref="index"/>
-    <file name="buhgalterskie_uslugi.jpg" crc="4186794590" ref="index"/>
-    <file name="ocenka-biznesa04-u18501-fr.jpg" crc="4258142278" ref="index"/>
-    <file name="203.jpg" crc="3978302557" ref="index"/>
-    <file name="docs_1.jpg" crc="354855672" ref="index"/>
-    <file name="the-importance-of-strategic-dialing-in-sales-development-e1459359249913.jpg" crc="3884274583" ref="index"/>
-    <file name="документы-для-усыновления-удочерения.jpg" crc="4122820101" ref="index"/>
-    <file name="smartphone-u18512.png" crc="286644595" ref="index"/>
-    <file name="smartphone-u18512-r.png" crc="3959779513" ref="index"/>
-    <file name="email-u18511.png" crc="36236701" ref="index"/>
-    <file name="email-u18511-r.png" crc="3790475178" ref="index"/>
-    <file name="vk-u18514.png" crc="4037169763" ref="index"/>
-    <file name="vk-u18514-r.png" crc="3912841905" ref="index"/>
-    <file name="instagram-u18515.png" crc="457021634" ref="index"/>
-    <file name="instagram-u18515-r.png" crc="266059366" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="plans.png" crc="483655217" ref="index"/>
-    <file name="house-plan-scale-u1246-fr.png" crc="3982365369" ref="index"/>
-    <file name="field-and-windmill.png" crc="452072950" ref="index"/>
-    <file name="house-u1282-fr.png" crc="26393828" ref="index"/>
-    <file name="file.png" crc="3910754424" ref="index"/>
-    <file name="calendar.png" crc="10775329" ref="index"/>
-    <file name="camera.png" crc="4178449318" ref="index"/>
-    <file name="file1.png" crc="159642789" ref="index"/>
-    <file name="report-u2733-fr.png" crc="3846547672" ref="index"/>
-    <file name="a256b97c0e15e07bf82f835539a8fae8.gif" crc="4257497329" ref="index"/>
-    <file name="выписка из реестра 2016.jpg" crc="530322316" seo="true" ref="index"/>
-    <file name="диплом оценщика.jpg" crc="370746811" seo="true" ref="index"/>
-    <file name="свидетельство 2016.jpg" crc="4064185916" seo="true" ref="index"/>
-    <file name="страховка 2017.jpg" crc="386693679" seo="true" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u10739.jpg" crc="3973556491" ref="index"/>
-    <file name="диплом оценщика63x45.jpg" crc="311858608" seo="true" ref="index"/>
-    <file name="свидетельство 2016-crop-u10745.jpg" crc="4167577999" ref="index"/>
-    <file name="страховка 2017-crop-u10743.jpg" crc="4120220640" ref="index"/>
-    <file name="loading.gif" crc="3815509949" ref="index"/>
     <file name="smartphone-u22501.png" crc="138086603" ref="index"/>
     <file name="smartphone-u22501-r.png" crc="3956008043" ref="index"/>
     <file name="email-u22500.png" crc="3827883801" ref="index"/>
@@ -73,32 +36,6 @@
     <file name="office-block-u23827-r.png" crc="219320678" ref="index"/>
     <file name="u5262-6.png" crc="457361588" ref="index"/>
     <file name="u5286-4.png" crc="4213731646" ref="index"/>
-    <file name="right-arrow-circular-button-u5012.png" crc="11733470" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r2.png" crc="4002619626" ref="index"/>
-    <file name="smartphone-u19369.png" crc="286644595" ref="index"/>
-    <file name="smartphone-u19369-r.png" crc="3959779513" ref="index"/>
-    <file name="email-u19368.png" crc="36236701" ref="index"/>
-    <file name="email-u19368-r.png" crc="3790475178" ref="index"/>
-    <file name="vk-u19371.png" crc="4037169763" ref="index"/>
-    <file name="vk-u19371-r.png" crc="3912841905" ref="index"/>
-    <file name="instagram-u19372.png" crc="457021634" ref="index"/>
-    <file name="instagram-u19372-r.png" crc="266059366" ref="index"/>
-    <file name="plans-u1230-fr.png" crc="318286541" ref="index"/>
-    <file name="house-plan-scale-u1246-fr2.png" crc="475805755" ref="index"/>
-    <file name="field-and-windmill-u1264-fr.png" crc="4275370914" ref="index"/>
-    <file name="house-u1282-fr2.png" crc="3978800274" ref="index"/>
-    <file name="file-u2216-fr.png" crc="430402181" ref="index"/>
-    <file name="calendar-u2446-fr.png" crc="14735449" ref="index"/>
-    <file name="camera-u2569-fr.png" crc="3760332900" ref="index"/>
-    <file name="file1-u2681-fr.png" crc="487997495" ref="index"/>
-    <file name="report-u2733-fr2.png" crc="383931036" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u10755.jpg" crc="53513783" ref="index"/>
-    <file name="диплом оценщика480x346.jpg" crc="381954157" seo="true" ref="index"/>
-    <file name="свидетельство 2016260x360.jpg" crc="3915137027" seo="true" ref="index"/>
-    <file name="страховка 2017262x360.jpg" crc="3865750007" seo="true" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107392.jpg" crc="3973556491" ref="index"/>
-    <file name="свидетельство 2016-crop-u107452.jpg" crc="4167577999" ref="index"/>
-    <file name="страховка 2017-crop-u107432.jpg" crc="4120220640" ref="index"/>
     <file name="smartphone-u225012.png" crc="4160359381" ref="index"/>
     <file name="smartphone-u22501-r2.png" crc="250166366" ref="index"/>
     <file name="email-u225002.png" crc="3855966662" ref="index"/>
@@ -111,29 +48,6 @@
     <file name="office-block-u23827-r2.png" crc="3807263106" ref="index"/>
     <file name="u5262-62.png" crc="219743149" ref="index"/>
     <file name="u5286-42.png" crc="4213731646" ref="index"/>
-    <file name="right-arrow-circular-button-u5013.png" crc="4270786956" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r3.png" crc="4091795202" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines-u20495-fr.png" crc="294886483" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines2-u20495-r-fr.png" crc="4159318027" ref="index"/>
-    <file name="ocenka-biznesa04-u20465-fr.jpg" crc="3855334781" ref="index"/>
-    <file name="smartphone-u20485.png" crc="286644595" ref="index"/>
-    <file name="smartphone-u20485-r.png" crc="3959779513" ref="index"/>
-    <file name="email-u20486.png" crc="36236701" ref="index"/>
-    <file name="email-u20486-r.png" crc="3790475178" ref="index"/>
-    <file name="vk-u20490.png" crc="4037169763" ref="index"/>
-    <file name="vk-u20490-r.png" crc="3912841905" ref="index"/>
-    <file name="instagram-u20488.png" crc="457021634" ref="index"/>
-    <file name="instagram-u20488-r.png" crc="266059366" ref="index"/>
-    <file name="plans-u1230-fr2.png" crc="202806854" ref="index"/>
-    <file name="house-plan-scale-u1246-fr3.png" crc="3927554696" ref="index"/>
-    <file name="field-and-windmill-u1264-fr2.png" crc="498573813" ref="index"/>
-    <file name="house-u1282-fr3.png" crc="4198542485" ref="index"/>
-    <file name="report-u2733-fr3.png" crc="3790339262" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107552.jpg" crc="53513783" ref="index"/>
-    <file name="диплом оценщика540x389.jpg" crc="426995713" seo="true" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107393.jpg" crc="3973556491" ref="index"/>
-    <file name="свидетельство 2016-crop-u107453.jpg" crc="4167577999" ref="index"/>
-    <file name="страховка 2017-crop-u107433.jpg" crc="4120220640" ref="index"/>
     <file name="smartphone-u225013.png" crc="4257575470" ref="index"/>
     <file name="smartphone-u22501-r3.png" crc="275732111" ref="index"/>
     <file name="email-u225003.png" crc="3849211631" ref="index"/>
@@ -146,29 +60,6 @@
     <file name="office-block-u23827-r3.png" crc="4181081213" ref="index"/>
     <file name="u5262-63.png" crc="4258345107" ref="index"/>
     <file name="u5286-43.png" crc="4213731646" ref="index"/>
-    <file name="1482342714_prodazha-nedvizhimosti-u327-fr.jpg" crc="402567623" ref="index"/>
-    <file name="plans-u1230-fr3.png" crc="436979456" ref="index"/>
-    <file name="house-plan-scale-u1246-fr4.png" crc="4221432435" ref="index"/>
-    <file name="right-arrow-circular-button-u5014.png" crc="56273315" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r4.png" crc="433549522" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines-u19945-fr.png" crc="155850898" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines2-u19945-r-fr.png" crc="4228779395" ref="index"/>
-    <file name="ocenka-biznesa04-u19967-fr.jpg" crc="4068720366" ref="index"/>
-    <file name="smartphone-u19978.png" crc="3920825459" ref="index"/>
-    <file name="smartphone-u19978-r.png" crc="74454354" ref="index"/>
-    <file name="email-u19977.png" crc="4114690311" ref="index"/>
-    <file name="email-u19977-r.png" crc="149469916" ref="index"/>
-    <file name="vk-u19980.png" crc="4097864317" ref="index"/>
-    <file name="vk-u19980-r.png" crc="215256749" ref="index"/>
-    <file name="instagram-u19981.png" crc="243319155" ref="index"/>
-    <file name="instagram-u19981-r.png" crc="39461090" ref="index"/>
-    <file name="field-and-windmill-u1264-fr3.png" crc="137812763" ref="index"/>
-    <file name="house-u1282-fr4.png" crc="3880706628" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107553.jpg" crc="334189561" ref="index"/>
-    <file name="диплом оценщика428x309.jpg" crc="93798049" seo="true" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107394.jpg" crc="3973556491" ref="index"/>
-    <file name="свидетельство 2016-crop-u107454.jpg" crc="4167577999" ref="index"/>
-    <file name="страховка 2017-crop-u107434.jpg" crc="4120220640" ref="index"/>
     <file name="smartphone-u225014.png" crc="406564923" ref="index"/>
     <file name="smartphone-u22501-r4.png" crc="470368303" ref="index"/>
     <file name="email-u225004.png" crc="109119750" ref="index"/>
@@ -181,38 +72,7 @@
     <file name="office-block-u23827-r4.png" crc="306435337" ref="index"/>
     <file name="u5262-64.png" crc="3926228181" ref="index"/>
     <file name="u5286-44.png" crc="3983339475" ref="index"/>
-    <file name="1482342714_prodazha-nedvizhimosti-u327-fr2.jpg" crc="486457937" ref="index"/>
-    <file name="ocenka-biznesa04.jpg" crc="48530182" ref="index"/>
-    <file name="ocenka-biznesa04-crop-u9335.jpg" crc="366415275" ref="index"/>
-    <file name="right-arrow-circular-button-u5015.png" crc="3807998623" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r5.png" crc="520979711" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines-u21059-fr.png" crc="3863965330" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines2-u21059-r-fr.png" crc="4049883813" ref="index"/>
-    <file name="buhgalterskie_uslugi-u21026-fr.jpg" crc="4169245936" ref="index"/>
-    <file name="ocenka-biznesa04-u21029-fr.jpg" crc="3907149165" ref="index"/>
-    <file name="203-u21028-fr.jpg" crc="111185424" ref="index"/>
-    <file name="docs_1-u21023-fr.jpg" crc="4005555177" ref="index"/>
-    <file name="the-importance-of-strategic-dialing-in-sales-development-e1459359249913-u21025-fr.jpg" crc="275209804" ref="index"/>
-    <file name="документы-для-усыновления-удочерения-u21027-fr.jpg" crc="3900003844" ref="index"/>
-    <file name="smartphone-u21049.png" crc="73767388" ref="index"/>
-    <file name="smartphone-u21049-r.png" crc="521050712" ref="index"/>
-    <file name="email-u21050.png" crc="285723231" ref="index"/>
-    <file name="email-u21050-r.png" crc="4016587146" ref="index"/>
-    <file name="vk-u21054.png" crc="254055029" ref="index"/>
-    <file name="vk-u21054-r.png" crc="157569422" ref="index"/>
-    <file name="instagram-u21052.png" crc="4015577852" ref="index"/>
-    <file name="instagram-u21052-r.png" crc="3839555733" ref="index"/>
-    <file name="plans-u1230-fr4.png" crc="4292951375" ref="index"/>
-    <file name="house-plan-scale-u1246-fr5.png" crc="4265282862" ref="index"/>
-    <file name="field-and-windmill-u1264-fr4.png" crc="359596323" ref="index"/>
-    <file name="house-u1282-fr5.png" crc="462013982" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107554.jpg" crc="4294876264" ref="index"/>
-    <file name="диплом оценщика300x217.jpg" crc="4013122034" seo="true" ref="index"/>
-    <file name="свидетельство 2016192x266.jpg" crc="155109157" seo="true" ref="index"/>
-    <file name="страховка 2017191x263.jpg" crc="14993433" seo="true" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107395.jpg" crc="3973556491" ref="index"/>
-    <file name="свидетельство 2016-crop-u107455.jpg" crc="4167577999" ref="index"/>
-    <file name="страховка 2017-crop-u107435.jpg" crc="4120220640" ref="index"/>
+    <file name="ocenka-biznesa04.jpg" crc="144265982" ref="index"/>
     <file name="smartphone-u225015.png" crc="4161287699" ref="index"/>
     <file name="smartphone-u22501-r5.png" crc="294299207" ref="index"/>
     <file name="email-u225005.png" crc="299909670" ref="index"/>
@@ -225,43 +85,7 @@
     <file name="office-block-u23827-r5.png" crc="4244696737" ref="index"/>
     <file name="u5262-65.png" crc="4186928987" ref="index"/>
     <file name="u5286-45.png" crc="207963604" ref="index"/>
-    <file name="1482342714_prodazha-nedvizhimosti-u327-fr3.jpg" crc="392694131" ref="index"/>
-    <file name="ocenka-biznesa04-u7239-fr.jpg" crc="144265982" ref="index"/>
-    <file name="ocenka-biznesa04-crop-u7239.jpg" crc="365867795" ref="index"/>
-    <file name="plans-u1230-fr5.png" crc="106775293" ref="index"/>
-    <file name="house-plan-scale-u1246-fr6.png" crc="472266464" ref="index"/>
-    <file name="right-arrow-circular-button-u5016.png" crc="3903832024" ref="index"/>
-    <file name="right-arrow-circular-button-u501-r6.png" crc="483086652" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines-u23129-fr.png" crc="332729596" ref="index"/>
-    <file name="menu-symbol-of-three-parallel-lines2-u23129-r-fr.png" crc="4121565360" ref="index"/>
-    <file name="buhgalterskie_uslugi-u23096-fr.jpg" crc="195418332" ref="index"/>
-    <file name="ocenka-biznesa04-u23099-fr.jpg" crc="4064664221" ref="index"/>
-    <file name="203-u23098-fr.jpg" crc="531761347" ref="index"/>
-    <file name="docs_1-u23093-fr.jpg" crc="3817246312" ref="index"/>
-    <file name="the-importance-of-strategic-dialing-in-sales-development-e1459359249913-u23095-fr.jpg" crc="4164579393" ref="index"/>
-    <file name="документы-для-усыновления-удочерения-u23097-fr.jpg" crc="3830692094" ref="index"/>
-    <file name="smartphone-u23119.png" crc="286644595" ref="index"/>
-    <file name="smartphone-u23119-r.png" crc="3959779513" ref="index"/>
-    <file name="email-u23120.png" crc="36236701" ref="index"/>
-    <file name="email-u23120-r.png" crc="3790475178" ref="index"/>
-    <file name="vk-u23124.png" crc="4037169763" ref="index"/>
-    <file name="vk-u23124-r.png" crc="3912841905" ref="index"/>
-    <file name="instagram-u23122.png" crc="457021634" ref="index"/>
-    <file name="instagram-u23122-r.png" crc="266059366" ref="index"/>
-    <file name="field-and-windmill-u1264-fr5.png" crc="316603515" ref="index"/>
-    <file name="house-u1282-fr6.png" crc="354539593" ref="index"/>
-    <file name="file-u2216-fr2.png" crc="207564987" ref="index"/>
-    <file name="calendar-u2446-fr2.png" crc="316729991" ref="index"/>
-    <file name="camera-u2569-fr2.png" crc="3929029049" ref="index"/>
-    <file name="file1-u2681-fr2.png" crc="206155427" ref="index"/>
-    <file name="report-u2733-fr4.png" crc="4113646551" ref="index"/>
-    <file name="выписка из реестра 2016180x249.jpg" crc="3759289609" seo="true" ref="index"/>
-    <file name="диплом оценщика-crop-u10757.jpg" crc="3952078797" ref="index"/>
-    <file name="свидетельство 2016180x249.jpg" crc="124910356" seo="true" ref="index"/>
-    <file name="страховка 2017179x247.jpg" crc="490451681" seo="true" ref="index"/>
-    <file name="выписка из реестра 2016-crop-u107396.jpg" crc="3973556491" ref="index"/>
-    <file name="свидетельство 2016-crop-u107456.jpg" crc="4167577999" ref="index"/>
-    <file name="страховка 2017-crop-u107436.jpg" crc="4120220640" ref="index"/>
+    <file name="ocenka-biznesa04-crop-u7239.jpg" crc="4016457475" ref="index"/>
     <file name="smartphone-u225016.png" crc="286644595" ref="index"/>
     <file name="smartphone-u22501-r6.png" crc="3959779513" ref="index"/>
     <file name="email-u225006.png" crc="36236701" ref="index"/>
@@ -274,6 +98,89 @@
     <file name="office-block-u23827-r6.png" crc="96330828" ref="index"/>
     <file name="u5262-66.png" crc="108595454" ref="index"/>
     <file name="u5286-46.png" crc="4256516442" ref="index"/>
+    <file name="fonverh.jpg" crc="323962444" seo="true" ref="index"/>
+    <file name="fontel.jpg" crc="4049952560" seo="true" ref="index"/>
+    <file name="akrocenka.jpg" crc="3990561829" seo="true" ref="index"/>
+    <file name="ocenkadlasbera.jpg" crc="3987282879" seo="true" ref="index"/>
+    <file name="nigniifon.jpg" crc="287068275" seo="true" ref="index"/>
+    <file name="strelka.png" crc="4118376547" seo="true" ref="index"/>
+    <file name="palka.jpg" crc="4211561488" seo="true" ref="index"/>
+    <file name="u24633.png" crc="247188069" ref="index"/>
+    <file name="u24633-r.png" crc="4055374724" ref="index"/>
+    <file name="u24633-m.png" crc="4055374724" ref="index"/>
+    <file name="u24653.png" crc="12610879" ref="index"/>
+    <file name="u24653-r.png" crc="3962170319" ref="index"/>
+    <file name="u24673.png" crc="398723278" ref="index"/>
+    <file name="u24673-r.png" crc="188159819" ref="index"/>
+    <file name="u24693.png" crc="3985089990" ref="index"/>
+    <file name="u24693-r.png" crc="408671503" ref="index"/>
+    <file name="fonproceduri.jpg" crc="65392500" seo="true" ref="index"/>
+    <file name="fonotceta.jpg" crc="518504909" seo="true" ref="index"/>
+    <file name="doc.png" crc="3829501" seo="true" ref="index"/>
+    <file name="kalendar.png" crc="59911735" seo="true" ref="index"/>
+    <file name="foto.png" crc="274624577" seo="true" ref="index"/>
+    <file name="kalk.png" crc="67563784" seo="true" ref="index"/>
+    <file name="gotov.png" crc="4172633744" seo="true" ref="index"/>
+    <file name="chel.png" crc="4267905601" seo="true" ref="index"/>
+    <file name="strelka1.png" crc="4125236623" seo="true" ref="index"/>
+    <file name="strelka2.png" crc="357721273" seo="true" ref="index"/>
+    <file name="u246332.png" crc="43585905" ref="index"/>
+    <file name="u24633-r2.png" crc="3815081874" ref="index"/>
+    <file name="u24633-m2.png" crc="3815081874" ref="index"/>
+    <file name="u246532.png" crc="258244181" ref="index"/>
+    <file name="u24653-r2.png" crc="288322628" ref="index"/>
+    <file name="u246732.png" crc="70450075" ref="index"/>
+    <file name="u24673-r2.png" crc="258641017" ref="index"/>
+    <file name="u246932.png" crc="392185481" ref="index"/>
+    <file name="u24693-r2.png" crc="8112797" ref="index"/>
+    <file name="u246333.png" crc="3893476281" ref="index"/>
+    <file name="u24633-r3.png" crc="4049213195" ref="index"/>
+    <file name="u24633-m3.png" crc="4049213195" ref="index"/>
+    <file name="u246533.png" crc="4229706214" ref="index"/>
+    <file name="u24653-r3.png" crc="258355314" ref="index"/>
+    <file name="u246733.png" crc="197592037" ref="index"/>
+    <file name="u24673-r3.png" crc="222518826" ref="index"/>
+    <file name="u246933.png" crc="4217611406" ref="index"/>
+    <file name="u24693-r3.png" crc="1847877" ref="index"/>
+    <file name="u246334.png" crc="3893476281" ref="index"/>
+    <file name="u24633-r4.png" crc="4049213195" ref="index"/>
+    <file name="u24633-m4.png" crc="4049213195" ref="index"/>
+    <file name="u246534.png" crc="4229706214" ref="index"/>
+    <file name="u24653-r4.png" crc="258355314" ref="index"/>
+    <file name="u246734.png" crc="197592037" ref="index"/>
+    <file name="u24673-r4.png" crc="222518826" ref="index"/>
+    <file name="u246934.png" crc="4217611406" ref="index"/>
+    <file name="u24693-r4.png" crc="1847877" ref="index"/>
+    <file name="u246335.png" crc="3893476281" ref="index"/>
+    <file name="u24633-r5.png" crc="4049213195" ref="index"/>
+    <file name="u24633-m5.png" crc="4049213195" ref="index"/>
+    <file name="u246535.png" crc="4229706214" ref="index"/>
+    <file name="u24653-r5.png" crc="258355314" ref="index"/>
+    <file name="u246735.png" crc="197592037" ref="index"/>
+    <file name="u24673-r5.png" crc="222518826" ref="index"/>
+    <file name="u246935.png" crc="4217611406" ref="index"/>
+    <file name="u24693-r5.png" crc="1847877" ref="index"/>
+    <file name="u246336.png" crc="3893476281" ref="index"/>
+    <file name="u24633-r6.png" crc="4049213195" ref="index"/>
+    <file name="u24633-m6.png" crc="4049213195" ref="index"/>
+    <file name="u246536.png" crc="4229706214" ref="index"/>
+    <file name="u24653-r6.png" crc="258355314" ref="index"/>
+    <file name="u246736.png" crc="197592037" ref="index"/>
+    <file name="u24673-r6.png" crc="222518826" ref="index"/>
+    <file name="u246936.png" crc="4217611406" ref="index"/>
+    <file name="u24693-r6.png" crc="1847877" ref="index"/>
+    <file name="fon1 (1)-crop-u27081.jpg" crc="3782575019" ref="index"/>
+    <file name="fon1 (1)-crop-u24312.jpg" crc="3782575019" ref="index"/>
+    <file name="fon1 (1).jpg" crc="518203777" seo="true" ref="index"/>
+    <file name="fonproceduri960x661.jpg" crc="227511084" seo="true" ref="index"/>
+    <file name="fonproceduri720x670.jpg" crc="3971537290" seo="true" ref="index"/>
+    <file name="fonproceduri640x632.jpg" crc="4087489353" seo="true" ref="index"/>
+    <file name="menu-symbol-of-three-parallel-lines-u29204-fr.png" crc="3987829745" ref="index"/>
+    <file name="menu-symbol-of-three-parallel-lines1-u29204-r-fr.png" crc="478577144" ref="index"/>
+    <file name="menu-symbol-of-three-parallel-lines2-u29204-a-fr.png" crc="350903264" ref="index"/>
+    <file name="fon1 (1)480x384.jpg" crc="317065502" seo="true" ref="index"/>
+    <file name="fonproceduri480x577.jpg" crc="53273804" seo="true" ref="index"/>
+    <file name="fonproceduri320x577.jpg" crc="53273804" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="4271952558" seo="true" mt="1507272582518" redirect="true"/>
+  <file name="index.html" crc="4109370636" seo="true" mt="1509305991210" redirect="true"/>
 </manifest>
