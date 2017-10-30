@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1509306042768">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="ocenka116.github.io" resolutions="1x" timestamp="1509352113120">
   <folder name="css">
     <file name="site_global.css" crc="225463448"/>
-    <file name="index.css" crc="439450174" ref="index"/>
-    <file name="nomq_index.css" crc="78311362" ref="index"/>
+    <file name="index.css" crc="203168723" ref="index"/>
+    <file name="nomq_index.css" crc="389664297" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -181,6 +181,22 @@
     <file name="fon1 (1)480x384.jpg" crc="317065502" seo="true" ref="index"/>
     <file name="fonproceduri480x577.jpg" crc="53273804" seo="true" ref="index"/>
     <file name="fonproceduri320x577.jpg" crc="53273804" seo="true" ref="index"/>
+    <file name="домашняя-favicon.ico" crc="38711649" ref="index"/>
+    <file name="сбербанк.jpg" crc="3845986102" seo="true" ref="index"/>
+    <file name="ак барс банк.jpg" crc="4026749139" seo="true" ref="index"/>
+    <file name="россельхозбанк.jpg" crc="298697620" seo="true" ref="index"/>
+    <file name="ик банк.jpg" crc="201456371" seo="true" ref="index"/>
+    <file name="ск итиль армеец.png" crc="3932011612" seo="true" ref="index"/>
+    <file name="right-arrow-circular-button.png" crc="28966288" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="аккредитация сбербанка.jpg" crc="45170820" seo="true" ref="index"/>
+    <file name="свидетельство сро.jpg" crc="56737940" seo="true" ref="index"/>
+    <file name="диплом оценщика.jpg" crc="342047904" seo="true" ref="index"/>
+    <file name="страховой полис 2017.jpg" crc="400656942" seo="true" ref="index"/>
+    <file name="аккредитация сбербанка39x45.jpg" crc="161700777" seo="true" ref="index"/>
+    <file name="свидетельство сро33x45.jpg" crc="2042130" seo="true" ref="index"/>
+    <file name="диплом оценщика60x44.jpg" crc="4289213583" seo="true" ref="index"/>
+    <file name="страховой полис 201733x45.jpg" crc="4202741367" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="4109370636" seo="true" mt="1509305991210" redirect="true"/>
+  <file name="index.html" crc="124196118" seo="true" mt="1509352056584" redirect="true"/>
 </manifest>
